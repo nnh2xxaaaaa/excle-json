@@ -1,0 +1,49 @@
+//   console.log(wb);
+  const ws = wb.getWorksheet(5);
+  console.log(ws);
+  ws.getRows().map((x) => console.log(x));
+  //   1. tu ws -> read all rows
+  //   2. Gom lai cac dong co chung bien so xe
+  //   3. Lay ra cac location. Tim lat lng
+  //   4. output.json
+  const c1 = ws.getRow(2);
+  const c2 = ws.getColumn(6);
+  const row_trucking_capacity = ws.getColumn(7);
+  console.log(row_trucking_capacity.values);
+  const filter_tracking_same = new Set(c2.values);
+
+  filter_tracking_same.forEach((e, i) => {
+    if (e === undefined || e === "Truck Number") {
+      filter_tracking_same.delete(e);
+    }
+  });
+
+  const dict = [];
+  filter_tracking_same.forEach((e) => {
+    dict.push({
+      vehicle_code: "EXTERNAL_1_1",
+      element: [
+        {
+          location_code: e,
+          lat: 16.801845,
+          lng: 107.1083897,
+        },
+      ],
+    });
+  });
+
+  //   console.log(dict);
+  const jsonData = JSON.stringify(dict);
+
+  // creat file json
+  fs.writeFile("data.json", jsonData, "utf8", (err) => {
+    if (err) {
+      console.error("An error occurred:", err);
+    } else {
+      console.log("JSON file has been created.");
+    }
+  });
+
+  c1.eachCell((c) => {
+    // console.log(c);
+  });
