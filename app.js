@@ -71,6 +71,7 @@ wb.xlsx.readFile(fileName).then(() => {
       currentEl.push(xx);
     });
     dict.solutions[0].routes.push({
+      vehicle_code: x.trucking_number,
       elements: currentEl,
     });
   });
