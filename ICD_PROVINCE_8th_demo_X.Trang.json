@@ -1,0 +1,996 @@
+{
+  "solutions": [
+    {
+      "routes": [
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-10",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000022121,
+              "lat": 11.7781334,
+              "lng": 107.1839024
+            },
+            {
+              "location_code": 6000004390,
+              "lat": 11.5448366,
+              "lng": 106.9105217
+            },
+            {
+              "location_code": 5000014631,
+              "lat": 11.5340382,
+              "lng": 106.8973891
+            },
+            {
+              "location_code": 6000007313,
+              "lat": 11.4249353,
+              "lng": 106.8561249
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-11",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000023754,
+              "lat": 11.4250368,
+              "lng": 106.6198176
+            },
+            {
+              "location_code": 6000028653,
+              "lat": 11.6601588,
+              "lng": 106.6122722
+            },
+            {
+              "location_code": 6000022500,
+              "lat": 11.8510815,
+              "lng": 106.5851559
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-12",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 5000014634,
+              "lat": 10.342838,
+              "lng": 105.4699229
+            },
+            {
+              "location_code": 6000004761,
+              "lat": 10.703184928161251,
+              "lng": 105.13259137690737
+            },
+            {
+              "location_code": 5000014657,
+              "lat": 10.6953921,
+              "lng": 105.0987369
+            },
+            {
+              "location_code": 6000015575,
+              "lat": 10.5088656,
+              "lng": 105.0498966
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-13",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000015498,
+              "lat": 10.8910813,
+              "lng": 105.0732771
+            },
+            {
+              "location_code": 6000011632,
+              "lat": 10.7708956,
+              "lng": 105.2838511
+            },
+            {
+              "location_code": 6000017433,
+              "lat": 10.7976262,
+              "lng": 105.3511736
+            },
+            {
+              "location_code": 5000017363,
+              "lat": 10.8041861,
+              "lng": 105.3491881
+            },
+            {
+              "location_code": 6000016926,
+              "lat": 10.4659127,
+              "lng": 105.6192603
+            },
+            {
+              "location_code": 6000023281,
+              "lat": 10.35201709454255,
+              "lng": 105.78254842758098
+            },
+            {
+              "location_code": 5000014676,
+              "lat": 10.4549029,
+              "lng": 105.6555492
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-14",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000009363,
+              "lat": 10.973862,
+              "lng": 106.9070111
+            },
+            {
+              "location_code": 6000013738,
+              "lat": 10.9583627,
+              "lng": 106.9036531
+            },
+            {
+              "location_code": 5000017065,
+              "lat": 10.972726,
+              "lng": 106.8541131
+            },
+            {
+              "location_code": 5000017945,
+              "lat": 10.9578595,
+              "lng": 106.8398152
+            },
+            {
+              "location_code": 6000023661,
+              "lat": 10.9466112,
+              "lng": 106.854171
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-15",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000012601,
+              "lat": 10.9543687,
+              "lng": 107.2358757
+            },
+            {
+              "location_code": 5000014638,
+              "lat": 10.9425932,
+              "lng": 107.2078821
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-16",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000022137,
+              "lat": 10.8339297,
+              "lng": 107.7363151
+            },
+            {
+              "location_code": 6000014495,
+              "lat": 10.6669012,
+              "lng": 107.7547383
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-17",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000014403,
+              "lat": 10.9129002,
+              "lng": 107.3972926
+            },
+            {
+              "location_code": 6000019840,
+              "lat": 11.2733293,
+              "lng": 107.5493203
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-18",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000014377,
+              "lat": 12.5854105,
+              "lng": 107.8925255
+            },
+            {
+              "location_code": 6000005100,
+              "lat": 12.5902143,
+              "lng": 107.8969753
+            },
+            {
+              "location_code": 6000019579,
+              "lat": 12.0179359,
+              "lng": 107.5623501
+            },
+            {
+              "location_code": 6000015138,
+              "lat": 12.0755219,
+              "lng": 107.7118552
+            },
+            {
+              "location_code": 5000016244,
+              "lat": 12.0070646,
+              "lng": 107.6839466
+            },
+            {
+              "location_code": 6000004936,
+              "lat": 12.4822551,
+              "lng": 108.0561611
+            },
+            { "location_code": 6000007494, "lat": 12.485568, "lng": 108.030324 }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-19",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000011384,
+              "lat": 10.5622853,
+              "lng": 106.4176871
+            },
+            {
+              "location_code": 6000011753,
+              "lat": 10.5622853,
+              "lng": 106.4176871
+            },
+            {
+              "location_code": 5000017936,
+              "lat": 10.4947169,
+              "lng": 106.3746973
+            },
+            {
+              "location_code": 5000014659,
+              "lat": 10.5395681,
+              "lng": 106.4069487
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-20",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000018140,
+              "lat": 10.9005341,
+              "lng": 106.4211513
+            },
+            {
+              "location_code": 5000014627,
+              "lat": 10.8419398,
+              "lng": 106.420215
+            },
+            {
+              "location_code": 5000003799,
+              "lat": 10.7977998,
+              "lng": 106.4700403
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-21",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000017683,
+              "lat": 10.6278892,
+              "lng": 106.5418803
+            },
+            {
+              "location_code": 5000014642,
+              "lat": 10.6419682,
+              "lng": 106.4890486
+            },
+            {
+              "location_code": 6000028607,
+              "lat": 10.8884272,
+              "lng": 105.778739
+            },
+            {
+              "location_code": 6000018613,
+              "lat": 10.6246983,
+              "lng": 106.0422398
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-22",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000011423,
+              "lat": 10.2883812,
+              "lng": 106.4111425
+            },
+            {
+              "location_code": 6000016550,
+              "lat": 10.2578767,
+              "lng": 106.1331004
+            },
+            {
+              "location_code": 5000014640,
+              "lat": 10.2424838,
+              "lng": 106.348185
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-23",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000010062,
+              "lat": 9.5956298,
+              "lng": 105.9585815
+            },
+            {
+              "location_code": 5000014674,
+              "lat": 9.6221614,
+              "lng": 105.9616868
+            },
+            {
+              "location_code": 6000010982,
+              "lat": 9.5458374,
+              "lng": 105.9791851
+            },
+            {
+              "location_code": 6000015883,
+              "lat": 9.7681804,
+              "lng": 105.9839071
+            },
+            {
+              "location_code": 6000005474,
+              "lat": 9.4286101,
+              "lng": 105.7429879
+            },
+            { "location_code": 6000016680, "lat": 9.330204, "lng": 105.9788011 }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-24",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000009352,
+              "lat": 10.4151502,
+              "lng": 106.1677568
+            },
+            {
+              "location_code": 5000014645,
+              "lat": 10.4076532,
+              "lng": 106.114023
+            },
+            {
+              "location_code": 6000014612,
+              "lat": 10.3508864,
+              "lng": 105.9439047
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-25",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000011268,
+              "lat": 10.3807984,
+              "lng": 106.3552092
+            },
+            {
+              "location_code": 6000007350,
+              "lat": 10.4759918,
+              "lng": 106.1963248
+            },
+            { "location_code": 5000015476, "lat": 10.35385, "lng": 106.45043 }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-26",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 5000014650,
+              "lat": 10.3732947,
+              "lng": 106.342297
+            },
+            {
+              "location_code": 5000004066,
+              "lat": 10.3642206,
+              "lng": 106.3710539
+            },
+            {
+              "location_code": 5000014651,
+              "lat": 10.3779869,
+              "lng": 106.6824493
+            },
+            {
+              "location_code": 6000009988,
+              "lat": 10.3577072,
+              "lng": 106.6390515
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-27",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000010767,
+              "lat": 10.5000786,
+              "lng": 107.1972668
+            },
+            {
+              "location_code": 5000014635,
+              "lat": 10.5148305,
+              "lng": 107.1896908
+            },
+            {
+              "location_code": 6000014808,
+              "lat": 10.4940748,
+              "lng": 107.2002437
+            },
+            {
+              "location_code": 6000014912,
+              "lat": 10.5723613,
+              "lng": 107.4228481
+            },
+            {
+              "location_code": 6000008621,
+              "lat": 10.5652721,
+              "lng": 107.4232759
+            },
+            {
+              "location_code": 6000003426,
+              "lat": 10.533422999999999,
+              "lng": 107.3997101
+            },
+            {
+              "location_code": 6000007908,
+              "lat": 10.5551585,
+              "lng": 107.5477834
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-28",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000014272,
+              "lat": 10.1099017,
+              "lng": 105.3014109
+            },
+            {
+              "location_code": 6000024164,
+              "lat": 9.9671806,
+              "lng": 105.1136611
+            },
+            {
+              "location_code": 6000015023,
+              "lat": 9.7764844,
+              "lng": 105.021529
+            },
+            {
+              "location_code": 6000017219,
+              "lat": 9.4913764,
+              "lng": 105.2383107
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-29",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000011750,
+              "lat": 9.8984837,
+              "lng": 105.2955575
+            },
+            {
+              "location_code": 6000019423,
+              "lat": 9.9661514,
+              "lng": 105.1050848
+            },
+            {
+              "location_code": 5000014680,
+              "lat": 9.9673705,
+              "lng": 105.1131697
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-30",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 5000004002,
+              "lat": 9.1867254,
+              "lng": 105.1612589
+            },
+            {
+              "location_code": 5000014637,
+              "lat": 9.1692011,
+              "lng": 105.1524059
+            },
+            {
+              "location_code": 5000014655,
+              "lat": 9.173509899999999,
+              "lng": 105.1557646
+            },
+            {
+              "location_code": 6000015139,
+              "lat": 9.2028713,
+              "lng": 105.0868309
+            },
+            {
+              "location_code": 6000017681,
+              "lat": 9.3565533,
+              "lng": 105.0849687
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-31",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000013316,
+              "lat": 10.313085357515103,
+              "lng": 105.74611237403563
+            },
+            {
+              "location_code": 6000016688,
+              "lat": 10.656121479597143,
+              "lng": 105.78424224970706
+            },
+            {
+              "location_code": 5000015326,
+              "lat": 10.5197808,
+              "lng": 105.8397853
+            },
+            {
+              "location_code": 6000014152,
+              "lat": 10.633333,
+              "lng": 105.333333
+            },
+            {
+              "location_code": 6000011256,
+              "lat": 10.3433778,
+              "lng": 105.5947595
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-32",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000023273,
+              "lat": 10.3552653,
+              "lng": 105.4271368
+            },
+            {
+              "location_code": 6000008357,
+              "lat": 10.150645,
+              "lng": 105.9729255
+            },
+            {
+              "location_code": 6000015270,
+              "lat": 10.083916753161898,
+              "lng": 106.11940365291748
+            },
+            {
+              "location_code": 6000014696,
+              "lat": 10.0645816,
+              "lng": 105.8151807
+            },
+            {
+              "location_code": 5000014639,
+              "lat": 10.2489559,
+              "lng": 105.9773008
+            },
+            { "location_code": 6000017934, "lat": 10.23909, "lng": 105.956939 },
+            {
+              "location_code": 5000014653,
+              "lat": 10.1933106,
+              "lng": 106.0111081
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-33",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000011755,
+              "lat": 13.9444179,
+              "lng": 107.9709613
+            },
+            {
+              "location_code": 5000014600,
+              "lat": 13.9829231,
+              "lng": 108.0006254
+            },
+            {
+              "location_code": 6000015152,
+              "lat": 13.5310804,
+              "lng": 108.3053396
+            },
+            {
+              "location_code": 6000021811,
+              "lat": 14.0978282,
+              "lng": 108.651683
+            },
+            {
+              "location_code": 6000007421,
+              "lat": 13.4048268,
+              "lng": 108.4428791
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-34",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000016424,
+              "lat": 10.3730791,
+              "lng": 105.4451334
+            },
+            {
+              "location_code": 6000014155,
+              "lat": 10.2627403,
+              "lng": 105.2071101
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-35",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 5000004273,
+              "lat": 10.3629176,
+              "lng": 105.4412942
+            },
+            {
+              "location_code": 6000013933,
+              "lat": 10.4565341,
+              "lng": 105.2958876
+            },
+            {
+              "location_code": 6000016008,
+              "lat": 10.515115123553892,
+              "lng": 105.48683930302732
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-36",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000011428,
+              "lat": 10.702118,
+              "lng": 106.936575
+            },
+            {
+              "location_code": 5000015034,
+              "lat": 10.7943268,
+              "lng": 106.9454117
+            },
+            {
+              "location_code": 6000017440,
+              "lat": 10.3768311,
+              "lng": 107.1037807
+            },
+            {
+              "location_code": 5000003875,
+              "lat": 10.3467932,
+              "lng": 107.0843016
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-37",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 5000017437,
+              "lat": 12.2144609,
+              "lng": 109.1915817
+            },
+            {
+              "location_code": 5000014692,
+              "lat": 12.2530773,
+              "lng": 109.1745445
+            },
+            {
+              "location_code": 5000004115,
+              "lat": 12.2550204,
+              "lng": 109.1347103
+            },
+            { "location_code": 6000021795, "lat": 11.8971, "lng": 109.1553021 },
+            {
+              "location_code": 5000014604,
+              "lat": 11.919499,
+              "lng": 109.158849
+            },
+            {
+              "location_code": 5000014605,
+              "lat": 12.4895781,
+              "lng": 109.1285256
+            },
+            {
+              "location_code": 6000024903,
+              "lat": 12.2813818,
+              "lng": 109.1229661
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-38",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000018612,
+              "lat": 10.066444720472282,
+              "lng": 105.55915884887693
+            },
+            {
+              "location_code": 5000014641,
+              "lat": 10.0188964,
+              "lng": 105.7628562
+            },
+            {
+              "location_code": 5000014617,
+              "lat": 10.0453361,
+              "lng": 105.7871216
+            },
+            {
+              "location_code": 6000012709,
+              "lat": 10.2299523788098,
+              "lng": 105.55316978903808
+            },
+            {
+              "location_code": 5000018553,
+              "lat": 10.079479,
+              "lng": 105.7434035
+            },
+            {
+              "location_code": 5000017312,
+              "lat": 9.997275199999999,
+              "lng": 105.7497225
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-39",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000016547,
+              "lat": 9.7876577,
+              "lng": 105.8383259
+            },
+            {
+              "location_code": 6000009742,
+              "lat": 9.9220797,
+              "lng": 105.7201764
+            },
+            {
+              "location_code": 6000011627,
+              "lat": 9.7973698,
+              "lng": 105.4912366
+            },
+            {
+              "location_code": 6000020009,
+              "lat": 9.9362926,
+              "lng": 105.8701316
+            },
+            {
+              "location_code": 5000014644,
+              "lat": 9.8016129,
+              "lng": 105.4961403
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-40",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000014980,
+              "lat": 11.758316,
+              "lng": 108.3750742
+            },
+            {
+              "location_code": 6000019770,
+              "lat": 11.9719458,
+              "lng": 108.4476322
+            },
+            {
+              "location_code": 5000014693,
+              "lat": 11.940419200000001,
+              "lng": 108.4583132
+            },
+            {
+              "location_code": 6000024469,
+              "lat": 11.6755292,
+              "lng": 107.9861077
+            },
+            {
+              "location_code": 5000014625,
+              "lat": 11.5914502,
+              "lng": 108.0788112
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-41",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000013389,
+              "lat": 9.8825953,
+              "lng": 106.3051766
+            },
+            {
+              "location_code": 6000022204,
+              "lat": 9.939532,
+              "lng": 106.3600156
+            },
+            {
+              "location_code": 6000007244,
+              "lat": 9.8215465,
+              "lng": 106.1965727
+            },
+            {
+              "location_code": 6000014971,
+              "lat": 9.821914277543877,
+              "lng": 106.19629656752016
+            },
+            {
+              "location_code": 5000014677,
+              "lat": 9.9146758,
+              "lng": 106.311437
+            },
+            { "location_code": 5000017433, "lat": 9.94852, "lng": 106.3245242 }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-42",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000022817,
+              "lat": 10.6530628,
+              "lng": 107.2328412
+            },
+            {
+              "location_code": 6000015500,
+              "lat": 10.6032018,
+              "lng": 107.113007
+            },
+            {
+              "location_code": 5000015394,
+              "lat": 10.4163582,
+              "lng": 107.2156779
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-43",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000014378,
+              "lat": 11.5510896,
+              "lng": 108.9843962
+            },
+            {
+              "location_code": 5000014698,
+              "lat": 11.5581302,
+              "lng": 108.9889557
+            },
+            {
+              "location_code": 5000004278,
+              "lat": 11.564869,
+              "lng": 108.9930556
+            },
+            {
+              "location_code": 6000022823,
+              "lat": 11.560827,
+              "lng": 108.9910825
+            },
+            {
+              "location_code": 6000013945,
+              "lat": 11.75435875577834,
+              "lng": 108.791977
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-44",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000009356,
+              "lat": 10.2402465,
+              "lng": 103.960853
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-45",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000008039,
+              "lat": 13.1283449,
+              "lng": 109.2849853
+            },
+            {
+              "location_code": 5000014607,
+              "lat": 13.0857714,
+              "lng": 109.2982641
+            },
+            {
+              "location_code": 5000017200,
+              "lat": 13.0922853,
+              "lng": 109.2983315
+            },
+            {
+              "location_code": 6000022783,
+              "lat": 13.4559982,
+              "lng": 109.2184983
+            }
+          ]
+        },
+        {
+          "vehicle_code": "ICD_TRANG_DEMO ICD-46",
+          "elements": [
+            { "location_code": "9512", "lat": 10.9143239, "lng": 106.7398226 },
+            {
+              "location_code": 6000011444,
+              "lat": 12.7335665,
+              "lng": 108.0815553
+            },
+            {
+              "location_code": 6000023588,
+              "lat": 12.702178,
+              "lng": 108.0746859
+            },
+            {
+              "location_code": 5000015604,
+              "lat": 12.6874687,
+              "lng": 108.0549121
+            },
+            {
+              "location_code": 6000008106,
+              "lat": 12.5075773,
+              "lng": 108.3356312
+            },
+            {
+              "location_code": 6000011493,
+              "lat": 12.5102054,
+              "lng": 108.3391957
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

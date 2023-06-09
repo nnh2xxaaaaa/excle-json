@@ -1,20 +1,40 @@
 import inputData from "./newInputData.json" assert { type: "json" };
-import newOutputData from "./newInputData.json" assert { type: "json" };
 import fs from "fs/promises";
 import ExcelJS from "exceljs";
 
 const wb = new ExcelJS.Workbook();
 // add file excel
 
-const fileName = "input.xlsx";
+const fileName = "ICD_HCM_8th_demo_(KIEN).xlsx";
 
 wb.xlsx.readFile(fileName).then(() => {
   //select sheet  file in excel
-  const ws = wb.getWorksheet(5);
+  const ws = wb.getWorksheet(7);
+
   //select Coloumn
-  const filter_shipto_party_number = ws.getColumn(5).values;
+  const filter_Trucking_Number = ws.getColumn(7).values;
   //select Coloumn
-  const filter_Trucking_Number = ws.getColumn(6).values;
+  const filter_shipto_party_number = ws.getColumn(6).values;
+  //select Coloumn
+  const filter_of_total_cbm = ws.getColumn(15).values;
+  filter_of_total_cbm.forEach((x) => {
+    console.log(x + 1);
+  });
+  const vehicleWeightToCbm = {};
+  inputData.vehicles.forEach((veh) => {
+    if (!(veh.vType.typeOfVehicleByCostToDeploy in vehicleWeightToCbm)) {
+      vehicleWeightToCbm[veh.vType.typeOfVehicleByCostToDeploy] = veh.cbm;
+    } else {
+      vehicleWeightToCbm[veh.vType.typeOfVehicleByCostToDeploy] = Math.max(
+        veh.cbm,
+        vehicleWeightToCbm[veh.vType.typeOfVehicleByCostToDeploy]
+      );
+    }
+  });
+
+  console.log(vehicleWeightToCbm);
+
+  return;
 
   //sum up the points in 1 car
   const test = [];
@@ -48,7 +68,7 @@ wb.xlsx.readFile(fileName).then(() => {
     return inputData.locations.find((x) => x.locationCode == location_code);
   };
   // add depotcenter
-  const findDepot = newOutputData["locations"];
+  const findDepot = inputData["locations"];
   const dataDepot = "DEPOT";
   const def = [];
   findDepot.map((x, i) => {
@@ -71,6 +91,7 @@ wb.xlsx.readFile(fileName).then(() => {
       currentEl.push(xx);
     });
     dict.solutions[0].routes.push({
+      vehicle_code: `ICD_KIEN_DEMO ${x.trucking_number}`,
       elements: currentEl,
     });
   });
@@ -86,7 +107,7 @@ wb.xlsx.readFile(fileName).then(() => {
   // export default file data.json
   const jsonData = JSON.stringify(dict);
 
-  fs.writeFile("data.json", jsonData, "utf8")
+  fs.writeFile("ICD_PROVINCE_8th_demo_KIEN.json", jsonData, "utf8")
     .then(() => {
       console.log("JSON file has been created.");
     })

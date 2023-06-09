@@ -3,1340 +3,271 @@
     {
       "routes": [
         {
+          "vehicle_code": " YMSUOTH 1211-11",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000009679,
-              "lat": 21.0038709,
-              "lng": 105.8689158
-            }
+            { "location_code": 6000022121 },
+            { "location_code": 6000004390 },
+            { "location_code": 5000014631 },
+            { "location_code": 6000007313 },
+            { "location_code": 6000023754 },
+            { "location_code": 6000028653 },
+            { "location_code": 6000022500 },
+            { "location_code": 5000014634 },
+            { "location_code": 6000004761 },
+            { "location_code": 5000014657 },
+            { "location_code": 6000015575 },
+            { "location_code": 6000015498 },
+            { "location_code": 6000011632 },
+            { "location_code": 6000017433 },
+            { "location_code": 5000017363 },
+            { "location_code": 6000016926 },
+            { "location_code": 6000023281 },
+            { "location_code": 5000014676 },
+            { "location_code": 6000009363 },
+            { "location_code": 6000013738 },
+            { "location_code": 5000017065 },
+            { "location_code": 5000017945 },
+            { "location_code": 6000023661 },
+            { "location_code": 6000012601 },
+            { "location_code": 5000014638 },
+            { "location_code": 6000022137 },
+            { "location_code": 6000014495 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-12",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000018276,
-              "lat": 21.1644992,
-              "lng": 106.0552006
-            }
+            { "location_code": 6000014403 },
+            { "location_code": 6000019840 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-11",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000008991,
-              "lat": 20.1947452,
-              "lng": 106.2956129
-            },
-            {
-              "location_code": 5000014873,
-              "lat": 20.4321752,
-              "lng": 106.162208
-            }
+            { "location_code": 6000014377 },
+            { "location_code": 6000005100 },
+            { "location_code": 6000019579 },
+            { "location_code": 6000015138 },
+            { "location_code": 5000016244 },
+            { "location_code": 6000004936 },
+            { "location_code": 6000007494 },
+            { "location_code": 6000011384 },
+            { "location_code": 6000011753 },
+            { "location_code": 5000017936 },
+            { "location_code": 5000014659 },
+            { "location_code": 6000018140 },
+            { "location_code": 5000014627 },
+            { "location_code": 5000003799 },
+            { "location_code": 6000017683 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-13",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000008132,
-              "lat": 20.8978846,
-              "lng": 105.9795395
-            }
+            { "location_code": 6000017683 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-11",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000016096,
-              "lat": 20.6498102,
-              "lng": 106.4918912
-            }
+            { "location_code": 5000014642 },
+            { "location_code": 6000028607 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-13",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000019323,
-              "lat": 20.9718056,
-              "lng": 105.8443247
-            },
-            {
-              "location_code": 6000021324,
-              "lat": 20.983549,
-              "lng": 105.8086772
-            },
-            {
-              "location_code": 6000018182,
-              "lat": 21.0251054,
-              "lng": 105.8832627
-            }
+            { "location_code": 6000028607 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-11",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 5000003631,
-              "lat": 21.0298833,
-              "lng": 105.9074818
-            },
-            {
-              "location_code": 6000018182,
-              "lat": 21.0251054,
-              "lng": 105.8832627
-            }
+            { "location_code": 6000028607 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-13",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000003546,
-              "lat": 19.8060711,
-              "lng": 105.7918664
-            },
-            {
-              "location_code": 6000003646,
-              "lat": 19.829079,
-              "lng": 105.7676717
-            },
-            {
-              "location_code": 6000014416,
-              "lat": 20.1029574,
-              "lng": 105.8427807
-            },
-            {
-              "location_code": 6000015146,
-              "lat": 19.914752581413264,
-              "lng": 105.88648711122283
-            }
+            { "location_code": 6000028607 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-11",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000014715,
-              "lat": 19.3581606,
-              "lng": 105.2809247
-            }
+            { "location_code": 6000018613 },
+            { "location_code": 6000011423 },
+            { "location_code": 6000016550 },
+            { "location_code": 5000014640 },
+            { "location_code": 6000010062 },
+            { "location_code": 5000014674 },
+            { "location_code": 6000010982 },
+            { "location_code": 6000015883 },
+            { "location_code": 6000005474 },
+            { "location_code": 6000016680 },
+            { "location_code": 6000009352 },
+            { "location_code": 5000014645 },
+            { "location_code": 6000014612 },
+            { "location_code": 6000011268 },
+            { "location_code": 6000007350 },
+            { "location_code": 5000015476 },
+            { "location_code": 5000014650 },
+            { "location_code": 5000004066 },
+            { "location_code": 5000014651 },
+            { "location_code": 6000009988 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-13",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000012738,
-              "lat": 18.529577258813706,
-              "lng": 105.69903865541687
-            },
-            {
-              "location_code": 6000011455,
-              "lat": 18.366522744892816,
-              "lng": 105.86502467403562
-            }
+            { "location_code": 6000009988 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-11",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000009296,
-              "lat": 21.5394395,
-              "lng": 107.8835642
-            }
+            { "location_code": 6000009988 },
+            { "location_code": 6000010767 },
+            { "location_code": 5000014635 },
+            { "location_code": 6000014808 },
+            { "location_code": 6000014912 },
+            { "location_code": 6000008621 },
+            { "location_code": 6000003426 },
+            { "location_code": 6000007908 },
+            { "location_code": 6000014272 },
+            { "location_code": 6000024164 },
+            { "location_code": 6000015023 },
+            { "location_code": 6000017219 },
+            { "location_code": 6000011750 },
+            { "location_code": 6000019423 },
+            { "location_code": 5000014680 },
+            { "location_code": 5000004002 },
+            { "location_code": 5000014637 },
+            { "location_code": 5000014655 },
+            { "location_code": 6000015139 },
+            { "location_code": 6000017681 },
+            { "location_code": 6000013316 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-13",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000021379,
-              "lat": 21.1110619,
-              "lng": 105.6331391
-            }
+            { "location_code": 6000013316 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-11",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000003562,
-              "lat": 20.9237444,
-              "lng": 106.3301468
-            }
+            { "location_code": 6000013316 },
+            { "location_code": 6000016688 },
+            { "location_code": 5000015326 },
+            { "location_code": 6000014152 },
+            { "location_code": 6000011256 },
+            { "location_code": 6000023273 },
+            { "location_code": 6000008357 },
+            { "location_code": 6000015270 },
+            { "location_code": 6000014696 },
+            { "location_code": 5000014639 },
+            { "location_code": 6000017934 },
+            { "location_code": 5000014653 },
+            { "location_code": 6000011755 },
+            { "location_code": 5000014600 },
+            { "location_code": 6000015152 },
+            { "location_code": 6000021811 },
+            { "location_code": 6000007421 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-14",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000014206,
-              "lat": 21.3512864,
-              "lng": 105.4554507
-            },
-            {
-              "location_code": 5000003530,
-              "lat": 21.3079679,
-              "lng": 105.6187345
-            }
+            { "location_code": 6000016424 },
+            { "location_code": 6000014155 },
+            { "location_code": 5000004273 },
+            { "location_code": 6000013933 },
+            { "location_code": 6000016008 },
+            { "location_code": 6000011428 },
+            { "location_code": 5000015034 },
+            { "location_code": 6000017440 },
+            { "location_code": 5000003875 },
+            { "location_code": 5000017437 },
+            { "location_code": 5000014692 },
+            { "location_code": 5000004115 },
+            { "location_code": 6000021795 },
+            { "location_code": 5000014604 },
+            { "location_code": 5000014605 },
+            { "location_code": 6000024903 },
+            { "location_code": 6000018612 },
+            { "location_code": 5000014641 },
+            { "location_code": 5000014617 },
+            { "location_code": 6000012709 },
+            { "location_code": 5000018553 },
+            { "location_code": 5000017312 },
+            { "location_code": 6000016547 },
+            { "location_code": 6000009742 },
+            { "location_code": 6000011627 },
+            { "location_code": 6000020009 },
+            { "location_code": 5000014644 },
+            { "location_code": 6000014980 },
+            { "location_code": 6000019770 },
+            { "location_code": 5000014693 },
+            { "location_code": 6000024469 },
+            { "location_code": 5000014625 },
+            { "location_code": 6000013389 },
+            { "location_code": 6000022204 },
+            { "location_code": 6000007244 },
+            { "location_code": 6000014971 },
+            { "location_code": 5000014677 },
+            { "location_code": 5000017433 },
+            { "location_code": 6000022817 },
+            { "location_code": 6000015500 },
+            { "location_code": 5000015394 },
+            { "location_code": 6000014378 },
+            { "location_code": 5000014698 },
+            { "location_code": 5000004278 },
+            { "location_code": 6000022823 },
+            { "location_code": 6000013945 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-12",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000003213,
-              "lat": 20.8716341,
-              "lng": 105.8717799
-            }
+            { "location_code": 6000009356 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-14",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000018725,
-              "lat": 21.0244133,
-              "lng": 106.8085134
-            },
-            {
-              "location_code": 6000014143,
-              "lat": 20.9742048,
-              "lng": 107.1030223
-            },
-            {
-              "location_code": 6000008557,
-              "lat": 21.0097033,
-              "lng": 107.3143883
-            }
+            { "location_code": 6000008039 },
+            { "location_code": 5000014607 },
+            { "location_code": 5000017200 },
+            { "location_code": 6000022783 }
           ]
         },
         {
+          "vehicle_code": " YMSUOTH 1211-12",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000012579,
-              "lat": 20.551421776416312,
-              "lng": 106.3556301000084
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 5000013924,
-              "lat": 21.3106001,
-              "lng": 105.4009117
-            },
-            {
-              "location_code": 6000009642,
-              "lat": 21.2987753,
-              "lng": 105.4261142
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 5000003470,
-              "lat": 21.1185828,
-              "lng": 105.9752628
-            },
-            {
-              "location_code": 6000011024,
-              "lat": 21.1543426,
-              "lng": 106.1367842
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000014520,
-              "lat": 22.0899425,
-              "lng": 104.7695962
-            },
-            {
-              "location_code": 6000003644,
-              "lat": 21.6894617,
-              "lng": 104.9184443
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000014103,
-              "lat": 21.589699976333893,
-              "lng": 103.42186091199497
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000014515,
-              "lat": 22.6646052,
-              "lng": 104.9680914
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 5000003509,
-              "lat": 21.1536122,
-              "lng": 105.8460277
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000020991,
-              "lat": 19.2443303,
-              "lng": 105.6940454
-            },
-            {
-              "location_code": 6000014555,
-              "lat": 18.6592955,
-              "lng": 105.6813235
-            },
-            {
-              "location_code": 6000004845,
-              "lat": 18.6672211,
-              "lng": 105.6833854
-            },
-            {
-              "location_code": 6000014104,
-              "lat": 18.7797247,
-              "lng": 105.3345401
-            },
-            {
-              "location_code": 5000013907,
-              "lat": 18.6636572,
-              "lng": 105.6813003
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000014517,
-              "lat": 21.1246346,
-              "lng": 105.776198
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000011640,
-              "lat": 21.7701868,
-              "lng": 105.0206757
-            },
-            {
-              "location_code": 5000010039,
-              "lat": 21.7230251,
-              "lng": 104.9129491
-            },
-            {
-              "location_code": 6000003644,
-              "lat": 21.6894617,
-              "lng": 104.9184443
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000014517,
-              "lat": 21.1246346,
-              "lng": 105.776198
-            },
-            {
-              "location_code": 5000016438,
-              "lat": 21.247935658347227,
-              "lng": 105.77118013968125
-            },
-            {
-              "location_code": 5000003509,
-              "lat": 21.1536122,
-              "lng": 105.8460277
-            },
-            {
-              "location_code": 5000013310,
-              "lat": 21.260555237646614,
-              "lng": 105.84990161244201
-            },
-            {
-              "location_code": 5000013312,
-              "lat": 21.137833,
-              "lng": 105.8607856
-            },
-            {
-              "location_code": 5000014994,
-              "lat": 21.1729891,
-              "lng": 105.8466345
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 5000014172,
-              "lat": 20.9784876,
-              "lng": 105.7731946
-            },
-            {
-              "location_code": 6000014848,
-              "lat": 20.9784876,
-              "lng": 105.7731946
-            },
-            {
-              "location_code": 6000008959,
-              "lat": 20.9706582,
-              "lng": 105.7836953
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000015146,
-              "lat": 19.914752581413264,
-              "lng": 105.88648711122283
-            },
-            {
-              "location_code": 6000014207,
-              "lat": 19.820173525211978,
-              "lng": 105.77436259038238
-            },
-            {
-              "location_code": 6000003646,
-              "lat": 19.829079,
-              "lng": 105.7676717
-            },
-            {
-              "location_code": 6000003546,
-              "lat": 19.8060711,
-              "lng": 105.7918664
-            },
-            {
-              "location_code": 5000015372,
-              "lat": 19.7520815,
-              "lng": 105.8415633
-            },
-            {
-              "location_code": 5000014589,
-              "lat": 19.9121557,
-              "lng": 105.8906859
-            },
-            {
-              "location_code": 5000003602,
-              "lat": 19.8000892,
-              "lng": 105.7765707
-            },
-            {
-              "location_code": 5000005243,
-              "lat": 19.8081792,
-              "lng": 105.7611702
-            },
-            {
-              "location_code": 5000005429,
-              "lat": 19.808905001209816,
-              "lng": 105.77757552780301
-            },
-            {
-              "location_code": 6000013190,
-              "lat": 19.8061011,
-              "lng": 105.7953214
-            },
-            { "location_code": 6000011293, "lat": 19.8307985, "lng": 105.8031 }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000003213,
-              "lat": 20.8716341,
-              "lng": 105.8717799
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 5000003631,
-              "lat": 21.0298833,
-              "lng": 105.9074818
-            },
-            {
-              "location_code": 5000004373,
-              "lat": 21.0525566,
-              "lng": 105.8909798
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000003644,
-              "lat": 21.6894617,
-              "lng": 104.9184443
-            },
-            {
-              "location_code": 6000016685,
-              "lat": 21.6894617,
-              "lng": 104.9184443
-            },
-            {
-              "location_code": 6000014514,
-              "lat": 21.5873546,
-              "lng": 104.5174652
-            },
-            {
-              "location_code": 5000016491,
-              "lat": 21.60193675172827,
-              "lng": 104.50985926007998
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 5000017199,
-              "lat": 21.21203941333747,
-              "lng": 105.17987100878449
-            },
-            {
-              "location_code": 5000003792,
-              "lat": 21.311163,
-              "lng": 105.3990461
-            },
-            {
-              "location_code": 5000013924,
-              "lat": 21.3106001,
-              "lng": 105.4009117
-            },
-            {
-              "location_code": 6000009642,
-              "lat": 21.2987753,
-              "lng": 105.4261142
-            },
-            {
-              "location_code": 6000014417,
-              "lat": 21.4671251,
-              "lng": 105.0831841
-            },
-            {
-              "location_code": 6000020695,
-              "lat": 21.3226001,
-              "lng": 105.3848088
-            },
-            {
-              "location_code": 5000013943,
-              "lat": 21.3380491,
-              "lng": 105.3731324
-            },
-            {
-              "location_code": 5000003597,
-              "lat": 21.3150314,
-              "lng": 105.3922194
-            },
-            {
-              "location_code": 5000014438,
-              "lat": 21.424687,
-              "lng": 105.1336777
-            },
-            { "location_code": 6000007843, "lat": 21.321709, "lng": 105.385109 }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000011718,
-              "lat": 21.03438723731614,
-              "lng": 106.77005653809512
-            },
-            {
-              "location_code": 6000016087,
-              "lat": 21.05702468385479,
-              "lng": 106.59813868748856
-            },
-            {
-              "location_code": 5000009877,
-              "lat": 21.0301125,
-              "lng": 106.747751
-            },
-            {
-              "location_code": 5000006901,
-              "lat": 20.9392391,
-              "lng": 106.7891284
-            },
-            {
-              "location_code": 5000005430,
-              "lat": 21.0545919,
-              "lng": 106.6062054
-            },
-            {
-              "location_code": 6000018725,
-              "lat": 21.0244133,
-              "lng": 106.8085134
-            },
-            {
-              "location_code": 5000012556,
-              "lat": 21.081609,
-              "lng": 106.5119871
-            },
-            {
-              "location_code": 5000014799,
-              "lat": 21.0710419,
-              "lng": 106.5642998
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 5000016185,
-              "lat": 21.0102459,
-              "lng": 105.8604918
-            },
-            {
-              "location_code": 5000017135,
-              "lat": 20.996152,
-              "lng": 105.847763
-            },
-            {
-              "location_code": 6000019323,
-              "lat": 20.9718056,
-              "lng": 105.8443247
-            },
-            {
-              "location_code": 6000009679,
-              "lat": 21.0038709,
-              "lng": 105.8689158
-            },
-            {
-              "location_code": 6000011004,
-              "lat": 20.9995714,
-              "lng": 105.8701711
-            },
-            {
-              "location_code": 6000021642,
-              "lat": 21.007936,
-              "lng": 105.8606401
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000003213,
-              "lat": 20.8716341,
-              "lng": 105.8717799
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000003213,
-              "lat": 20.8716341,
-              "lng": 105.8717799
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 5000013907,
-              "lat": 18.6636572,
-              "lng": 105.6813003
-            },
-            {
-              "location_code": 5000009977,
-              "lat": 18.6650659,
-              "lng": 105.6739604
-            },
-            {
-              "location_code": 6000008679,
-              "lat": 19.0407239,
-              "lng": 105.2692193
-            },
-            {
-              "location_code": 5000016228,
-              "lat": 18.6835285,
-              "lng": 105.6749148
-            },
-            {
-              "location_code": 6000016538,
-              "lat": 18.7082875,
-              "lng": 105.6537162
-            },
-            {
-              "location_code": 6000003581,
-              "lat": 18.6768568,
-              "lng": 105.6793105
-            },
-            {
-              "location_code": 6000004054,
-              "lat": 18.7117531,
-              "lng": 105.6293476
-            },
-            {
-              "location_code": 6000004845,
-              "lat": 18.6672211,
-              "lng": 105.6833854
-            },
-            {
-              "location_code": 5000005404,
-              "lat": 18.676563,
-              "lng": 105.6780687
-            },
-            {
-              "location_code": 6000014555,
-              "lat": 18.6592955,
-              "lng": 105.6813235
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000010954,
-              "lat": 20.7823932,
-              "lng": 106.6154028
-            },
-            {
-              "location_code": 6000021612,
-              "lat": 20.8165578,
-              "lng": 106.6009519
-            },
-            {
-              "location_code": 5000012366,
-              "lat": 20.8572729,
-              "lng": 106.615214
-            },
-            {
-              "location_code": 5000012040,
-              "lat": 20.7095597,
-              "lng": 106.7928476
-            },
-            {
-              "location_code": 5000016253,
-              "lat": 20.821354593433824,
-              "lng": 106.5510640258644
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 5000003603,
-              "lat": 21.3068603,
-              "lng": 105.618344
-            },
-            {
-              "location_code": 6000003315,
-              "lat": 21.2300251,
-              "lng": 105.7015457
-            },
-            {
-              "location_code": 6000011171,
-              "lat": 21.3272752,
-              "lng": 105.5423082
-            },
-            {
-              "location_code": 6000003570,
-              "lat": 21.3265601,
-              "lng": 105.5984998
-            },
-            {
-              "location_code": 5000003530,
-              "lat": 21.3079679,
-              "lng": 105.6187345
-            },
-            {
-              "location_code": 5000014013,
-              "lat": 21.4129606,
-              "lng": 105.4566012
-            },
-            {
-              "location_code": 5000014177,
-              "lat": 21.3616936,
-              "lng": 105.6002024
-            },
-            {
-              "location_code": 5000005407,
-              "lat": 21.2457721,
-              "lng": 105.6911121
-            },
-            {
-              "location_code": 5000014178,
-              "lat": 21.3819503,
-              "lng": 105.5393758
-            },
-            {
-              "location_code": 5000003787,
-              "lat": 21.3067437,
-              "lng": 105.5779712
-            },
-            {
-              "location_code": 6000007117,
-              "lat": 21.2294467,
-              "lng": 105.7036743
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 5000014944,
-              "lat": 21.1644992,
-              "lng": 106.0552006
-            },
-            {
-              "location_code": 6000020693,
-              "lat": 21.1698104,
-              "lng": 106.058796
-            },
-            {
-              "location_code": 5000003470,
-              "lat": 21.1185828,
-              "lng": 105.9752628
-            },
-            {
-              "location_code": 5000016134,
-              "lat": 21.0222876,
-              "lng": 106.2080897
-            },
-            {
-              "location_code": 5000012774,
-              "lat": 21.147533,
-              "lng": 106.140451
-            },
-            {
-              "location_code": 5000017117,
-              "lat": 21.1153485,
-              "lng": 105.9557651
-            },
-            {
-              "location_code": 5000014726,
-              "lat": 21.1540619,
-              "lng": 106.1472379
-            },
-            {
-              "location_code": 5000014772,
-              "lat": 21.0552098,
-              "lng": 106.1743167
-            },
-            {
-              "location_code": 5000014437,
-              "lat": 21.056861,
-              "lng": 106.0947712
-            },
-            {
-              "location_code": 5000005410,
-              "lat": 21.167162771544103,
-              "lng": 106.04538421894762
-            },
-            {
-              "location_code": 5000017373,
-              "lat": 21.190983,
-              "lng": 105.9988962
-            },
-            {
-              "location_code": 5000014189,
-              "lat": 21.1940085,
-              "lng": 105.954693
-            },
-            {
-              "location_code": 5000012037,
-              "lat": 21.1961358,
-              "lng": 106.0848963
-            },
-            {
-              "location_code": 6000011024,
-              "lat": 21.1543426,
-              "lng": 106.1367842
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000009296,
-              "lat": 21.5394395,
-              "lng": 107.8835642
-            },
-            {
-              "location_code": 6000015392,
-              "lat": 20.9747914,
-              "lng": 107.0189786
-            },
-            {
-              "location_code": 6000013550,
-              "lat": 21.4501648,
-              "lng": 107.7532579
-            },
-            {
-              "location_code": 6000003575,
-              "lat": 20.947717,
-              "lng": 107.129057
-            },
-            {
-              "location_code": 5000017176,
-              "lat": 21.5227713,
-              "lng": 107.9757533
-            },
-            {
-              "location_code": 5000003599,
-              "lat": 20.951487,
-              "lng": 107.1061691
-            },
-            {
-              "location_code": 6000014143,
-              "lat": 20.9742048,
-              "lng": 107.1030223
-            },
-            {
-              "location_code": 5000012773,
-              "lat": 21.005696147475394,
-              "lng": 107.26332483305208
-            },
-            {
-              "location_code": 6000008557,
-              "lat": 21.0097033,
-              "lng": 107.3143883
-            },
-            {
-              "location_code": 5000014406,
-              "lat": 20.9576975,
-              "lng": 107.0850198
-            },
-            {
-              "location_code": 6000010651,
-              "lat": 21.00457820679655,
-              "lng": 107.28361602272342
-            },
-            {
-              "location_code": 6000013863,
-              "lat": 21.4501189,
-              "lng": 107.7932319
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000014420,
-              "lat": 19.5512771,
-              "lng": 105.0964113
-            },
-            {
-              "location_code": 6000015147,
-              "lat": 19.0409903,
-              "lng": 105.3512543
-            },
-            {
-              "location_code": 5000017252,
-              "lat": 19.325533136175896,
-              "lng": 105.1884237790207
-            },
-            {
-              "location_code": 5000017229,
-              "lat": 18.997449,
-              "lng": 105.4684186
-            },
-            {
-              "location_code": 6000014715,
-              "lat": 19.3581606,
-              "lng": 105.2809247
-            },
-            {
-              "location_code": 6000021649,
-              "lat": 18.9196136,
-              "lng": 105.4360963
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 5000009978,
-              "lat": 20.8562458,
-              "lng": 106.6864219
-            },
-            {
-              "location_code": 6000013307,
-              "lat": 20.8298469,
-              "lng": 106.6726072
-            },
-            {
-              "location_code": 6000016096,
-              "lat": 20.6498102,
-              "lng": 106.4918912
-            },
-            {
-              "location_code": 5000003590,
-              "lat": 20.8574141,
-              "lng": 106.6984013
-            },
-            {
-              "location_code": 6000003774,
-              "lat": 20.8298469,
-              "lng": 106.6726072
-            },
-            {
-              "location_code": 5000009770,
-              "lat": 20.691439842011892,
-              "lng": 106.48247628891605
-            },
-            {
-              "location_code": 5000010265,
-              "lat": 20.8352646,
-              "lng": 106.6848367
-            },
-            {
-              "location_code": 6000012801,
-              "lat": 20.855526617576988,
-              "lng": 106.70108783857879
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000015379,
-              "lat": 20.4674502,
-              "lng": 106.3146625
-            },
-            {
-              "location_code": 6000017481,
-              "lat": 20.4108589,
-              "lng": 106.4955539
-            },
-            {
-              "location_code": 5000014458,
-              "lat": 20.3396857,
-              "lng": 106.540153
-            },
-            {
-              "location_code": 5000010680,
-              "lat": 20.565057630555028,
-              "lng": 106.56532965428391
-            },
-            {
-              "location_code": 6000018739,
-              "lat": 20.4071731,
-              "lng": 106.5033099
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 5000016524,
-              "lat": 22.668144517225215,
-              "lng": 104.98301252874987
-            },
-            {
-              "location_code": 6000021397,
-              "lat": 22.7279899,
-              "lng": 104.9739333
-            },
-            {
-              "location_code": 5000016523,
-              "lat": 22.4177717,
-              "lng": 104.8104424
-            },
-            {
-              "location_code": 6000014208,
-              "lat": 22.407258185884416,
-              "lng": 104.80803914072263
-            },
-            {
-              "location_code": 5000003562,
-              "lat": 22.82126490921405,
-              "lng": 104.98162501111452
-            },
-            {
-              "location_code": 6000014515,
-              "lat": 22.6646052,
-              "lng": 104.9680914
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000014144,
-              "lat": 20.86859810438932,
-              "lng": 106.30034987390519
-            },
-            {
-              "location_code": 6000014598,
-              "lat": 20.8810258,
-              "lng": 106.1727971
-            },
-            {
-              "location_code": 6000003562,
-              "lat": 20.9237444,
-              "lng": 106.3301468
-            },
-            {
-              "location_code": 5000010307,
-              "lat": 20.8709012,
-              "lng": 106.2992636
-            },
-            {
-              "location_code": 6000016848,
-              "lat": 20.9514359,
-              "lng": 106.3174233
-            },
-            {
-              "location_code": 5000014727,
-              "lat": 20.9408492,
-              "lng": 106.3432641
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000012738,
-              "lat": 18.529577258813706,
-              "lng": 105.69903865541687
-            },
-            {
-              "location_code": 6000011455,
-              "lat": 18.366522744892816,
-              "lng": 105.86502467403562
-            },
-            {
-              "location_code": 6000011722,
-              "lat": 18.5065883,
-              "lng": 105.5467046
-            },
-            {
-              "location_code": 6000017098,
-              "lat": 18.172909446636112,
-              "lng": 105.70253357376328
-            },
-            {
-              "location_code": 6000014742,
-              "lat": 18.458254734358743,
-              "lng": 105.3007896758995
-            },
-            {
-              "location_code": 5000014723,
-              "lat": 18.6487754,
-              "lng": 105.738714
-            },
-            {
-              "location_code": 5000014760,
-              "lat": 18.5302329,
-              "lng": 105.7057542
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000011598,
-              "lat": 21.388961,
-              "lng": 103.0328135
-            },
-            {
-              "location_code": 6000014103,
-              "lat": 21.589699976333893,
-              "lng": 103.42186091199497
-            },
-            {
-              "location_code": 6000011583,
-              "lat": 21.37975376939312,
-              "lng": 103.01558164818383
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000021379,
-              "lat": 21.1110619,
-              "lng": 105.6331391
-            },
-            {
-              "location_code": 5000014954,
-              "lat": 21.072583,
-              "lng": 105.703033
-            },
-            {
-              "location_code": 5000017172,
-              "lat": 21.0750534,
-              "lng": 105.69804
-            },
-            {
-              "location_code": 5000012207,
-              "lat": 21.0846278,
-              "lng": 105.670145
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000018276,
-              "lat": 21.1644992,
-              "lng": 106.0552006
-            },
-            {
-              "location_code": 5000003588,
-              "lat": 21.1724455,
-              "lng": 106.0629525
-            },
-            {
-              "location_code": 6000014329,
-              "lat": 21.0855597,
-              "lng": 105.9729255
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000003549,
-              "lat": 20.4511196,
-              "lng": 106.3345438
-            },
-            {
-              "location_code": 6000017489,
-              "lat": 20.4626718,
-              "lng": 106.3327193
-            },
-            {
-              "location_code": 5000012756,
-              "lat": 20.5916721,
-              "lng": 106.2249955
-            },
-            {
-              "location_code": 6000015379,
-              "lat": 20.4674502,
-              "lng": 106.3146625
-            },
-            {
-              "location_code": 5000013859,
-              "lat": 20.4481168,
-              "lng": 106.3494834
-            },
-            {
-              "location_code": 5000014469,
-              "lat": 20.4373541,
-              "lng": 106.3319534
-            },
-            {
-              "location_code": 6000014097,
-              "lat": 20.4384961,
-              "lng": 106.3123186
-            },
-            {
-              "location_code": 6000012579,
-              "lat": 20.551421776416312,
-              "lng": 106.3556301000084
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000008991,
-              "lat": 20.1947452,
-              "lng": 106.2956129
-            },
-            {
-              "location_code": 5000014873,
-              "lat": 20.4321752,
-              "lng": 106.162208
-            },
-            {
-              "location_code": 6000005382,
-              "lat": 20.4307087,
-              "lng": 106.1748195
-            },
-            {
-              "location_code": 5000011971,
-              "lat": 20.1987048,
-              "lng": 106.3029009
-            },
-            {
-              "location_code": 6000021390,
-              "lat": 20.3974479,
-              "lng": 106.1866496
-            }
-          ]
-        },
-        {
-          "elements": [
-            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
-            {
-              "location_code": 6000008132,
-              "lat": 20.8978846,
-              "lng": 105.9795395
-            },
-            {
-              "location_code": 5000014333,
-              "lat": 20.8930015,
-              "lng": 106.0445469
-            },
-            {
-              "location_code": 6000013582,
-              "lat": 20.913557,
-              "lng": 106.0598512
-            }
+            { "location_code": 6000011444 },
+            { "location_code": 6000023588 },
+            { "location_code": 5000015604 },
+            { "location_code": 6000008106 },
+            { "location_code": 6000011493 }
           ]
         }
       ]
