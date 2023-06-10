@@ -6,15 +6,21 @@ import ExcelJS from "exceljs";
 const wb = new ExcelJS.Workbook();
 // add file excel
 
-const fileName = "input.xlsx";
+const fileName = "Test.xlsx";
 
 wb.xlsx.readFile(fileName).then(() => {
   //select sheet  file in excel
-  const ws = wb.getWorksheet(5);
+  const ws = wb.getWorksheet(1);
   //select Coloumn
-  const filter_shipto_party_number = ws.getColumn(5).values;
+  const filter_shipto_party_number = ws.getColumn(8).values;
   //select Coloumn
-  const filter_Trucking_Number = ws.getColumn(6).values;
+  const filter_Trucking_Number = ws.getColumn(18).values;
+
+  console.log(filter_shipto_party_number)
+  console.log(filter_Trucking_Number);
+
+
+  // return;
 
   //sum up the points in 1 car
   const test = [];
@@ -71,7 +77,7 @@ wb.xlsx.readFile(fileName).then(() => {
       currentEl.push(xx);
     });
     dict.solutions[0].routes.push({
-      vehicle_code: x.trucking_number,
+      vehicle_code: ` DN_Nhung-${x.trucking_number}`,
       elements: currentEl,
     });
   });
@@ -87,7 +93,7 @@ wb.xlsx.readFile(fileName).then(() => {
   // export default file data.json
   const jsonData = JSON.stringify(dict);
 
-  fs.writeFile("data.json", jsonData, "utf8")
+  fs.writeFile("DN_8Th_Nhung.json", jsonData, "utf8")
     .then(() => {
       console.log("JSON file has been created.");
     })
