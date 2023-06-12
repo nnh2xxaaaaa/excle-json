@@ -15,23 +15,53 @@ wb.xlsx.readFile(fileName).then(() => {
   const filter_shipto_party_number = ws.getColumn(5).values;
   //select Coloumn
   const filter_Trucking_Number = ws.getColumn(7).values;
+  //select Coloumn Transporter
+  const filter_transporter = ws.getColumn(10).values;
+  //select Colomun
+  const filter_truck_capacity_in_tons = ws.getColumn(9).values;
+
+  function convertString(str) {
+    // Split the string into individual words
+    const words = str.split(" ");
+
+    // Convert each word to lowercase and capitalize the first letter
+    const convertedWords = words.map(function (word) {
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    });
+
+    // Join the converted words back into a single string
+    const convertedString = convertedWords.join(" ") + "_YMNorth-";
+
+    return convertedString;
+  }
+  const typeOfVehicle = [];
+  for (let i = 2; i < filter_transporter.length; i++) {
+    typeOfVehicle.push(
+      convertString(filter_transporter[i]) +
+        filter_truck_capacity_in_tons[i] +
+        "T"
+    );
+  }
+
+  // return;
 
   //sum up the points in 1 car
 
-  const groups = {};
-  for (let i = 2; i < filter_Trucking_Number.length; i++) {
-    const tt = filter_Trucking_Number[i];
-    const x = filter_shipto_party_number[i];
+  // const groups = {};
+  // for (let i = 2; i < filter_Trucking_Number.length; i++) {
+  //   const tt = filter_Trucking_Number[i];
+  //   const x = filter_shipto_party_number[i];
+  //   const kk = typeOfVehicle[i];
 
-    if (groups.hasOwnProperty(tt)) {
-      if (!groups[tt].includes(x)) {
-        groups[tt].push(x);
-      }
-    } else {
-      groups[tt] = [x];
-    }
-  }
-  console.log(groups);
+  //   if (groups.hasOwnProperty(tt)) {
+  //     if (!groups[tt].includes(x)) {
+  //       groups[tt].push(x, kk);
+  //     }
+  //   } else {
+  //     groups[tt] = [x, kk];
+  //   }
+  // }
+  // console.log(groups);
 
   const test = [];
   for (let i = 1; i < filter_shipto_party_number.length; i++) {
@@ -39,6 +69,7 @@ wb.xlsx.readFile(fileName).then(() => {
       test.push({
         trucking_number: filter_Trucking_Number[i],
         shipto_party_number: [{ location_code: filter_shipto_party_number[i] }],
+        txt: [{ location_code: typeOfVehicle[i] }],
       });
     } else if (
       i >= 2 &&
@@ -47,10 +78,11 @@ wb.xlsx.readFile(fileName).then(() => {
     ) {
       test[test.length - 1].shipto_party_number.push({
         location_code: filter_shipto_party_number[i],
+        txt: [{ location_code: typeOfVehicle[i] }],
       });
     }
   }
-  console.log(test);
+  // console.log(test);
 
   // Create an object to store merged arrays
   const mergedData = {};
@@ -128,9 +160,9 @@ wb.xlsx.readFile(fileName).then(() => {
     }
   }
 
-  const jsonData = JSON.stringify(dict);
+  const jsonData = JSON.stringify(typeOfVehicle);
 
-  fs.writeFile("Actual_Test_206.json", jsonData, "utf8")
+  fs.writeFile("st_206.json", jsonData, "utf8")
     .then(() => {
       console.log("JSON file has been created.");
     })
