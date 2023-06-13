@@ -30,7 +30,13 @@ wb.xlsx.readFile(fileName).then(() => {
     });
 
     // Join the converted words back into a single string
-    const convertedString = convertedWords.join(" ") + "_YMNorth-";
+    let convertedString;
+    if (convertedWords.join(" ") === "Thai Ha") {
+      convertedString = convertedWords.join(" ") + " YMNorth-";
+    } else {
+      // Join the converted words back into a single string
+      convertedString = convertedWords.join(" ") + "_YMNorth-";
+    }
 
     return convertedString;
   }
@@ -43,33 +49,12 @@ wb.xlsx.readFile(fileName).then(() => {
     );
   }
 
-  // return;
-
-  //sum up the points in 1 car
-
-  // const groups = {};
-  // for (let i = 2; i < filter_Trucking_Number.length; i++) {
-  //   const tt = filter_Trucking_Number[i];
-  //   const x = filter_shipto_party_number[i];
-  //   const kk = typeOfVehicle[i];
-
-  //   if (groups.hasOwnProperty(tt)) {
-  //     if (!groups[tt].includes(x)) {
-  //       groups[tt].push(x, kk);
-  //     }
-  //   } else {
-  //     groups[tt] = [x, kk];
-  //   }
-  // }
-  // console.log(groups);
-
   const test = [];
   for (let i = 1; i < filter_shipto_party_number.length; i++) {
     if (i >= 2 && filter_Trucking_Number[i] != filter_Trucking_Number[i - 1]) {
       test.push({
         trucking_number: filter_Trucking_Number[i],
         shipto_party_number: [{ location_code: filter_shipto_party_number[i] }],
-        txt: [{ location_code: typeOfVehicle[i] }],
       });
     } else if (
       i >= 2 &&
@@ -78,10 +63,10 @@ wb.xlsx.readFile(fileName).then(() => {
     ) {
       test[test.length - 1].shipto_party_number.push({
         location_code: filter_shipto_party_number[i],
-        txt: [{ location_code: typeOfVehicle[i] }],
       });
     }
   }
+
   // console.log(test);
 
   // Create an object to store merged arrays
@@ -109,7 +94,55 @@ wb.xlsx.readFile(fileName).then(() => {
   );
 
   // Output the merged array
-  // console.log(mergedArray);
+
+  // grond car
+  const b = filter_Trucking_Number.slice(2);
+  const a = typeOfVehicle;
+
+  const carTrans = [];
+  for (let i = 0; i < b.length; i++) {
+    if (i >= 0 && b[i] !== b[i - 1]) {
+      carTrans.push({
+        trucking_number: b[i],
+        shipto_party_number: [a[i]],
+      });
+    } else if (i >= 0 && a[i] !== a[i - 1] && b[i] === b[i - 1]) {
+      carTrans[carTrans.length - 1].shipto_party_number.push({
+        location_code: a[i],
+      });
+    }
+  }
+
+  const mergedMap = {};
+
+  carTrans.forEach((obj) => {
+    const { trucking_number, shipto_party_number } = obj;
+
+    if (mergedMap[trucking_number]) {
+      if (Array.isArray(mergedMap[trucking_number].shipto_party_number)) {
+        mergedMap[trucking_number].shipto_party_number.push(
+          ...shipto_party_number
+        );
+      } else {
+        mergedMap[trucking_number].shipto_party_number = [
+          mergedMap[trucking_number].shipto_party_number,
+          ...shipto_party_number,
+        ];
+      }
+    } else {
+      mergedMap[trucking_number] = { trucking_number, shipto_party_number };
+    }
+  });
+
+  // Remove duplicate values within shipto_party_number arrays
+  Object.values(mergedMap).forEach((obj) => {
+    if (Array.isArray(obj.shipto_party_number)) {
+      obj.shipto_party_number = Array.from(new Set(obj.shipto_party_number));
+    }
+  });
+
+  const marCar = Array.from(Object.values(mergedMap));
+  const cargr = marCar.map((obj) => obj.shipto_party_number.join(""));
 
   // creat data json
   const dict = {
@@ -147,7 +180,8 @@ wb.xlsx.readFile(fileName).then(() => {
       currentEl.push(xx);
     });
     dict.solutions[0].routes.push({
-      vehicle_code: x.trucking_number,
+      typeOfVehicle: cargr[i],
+      vehicleCode: x.trucking_number,
       elements: currentEl,
     });
   });
@@ -159,8 +193,15 @@ wb.xlsx.readFile(fileName).then(() => {
       ).map(JSON.parse);
     }
   }
+  const bins = dict.solutions[0].routes;
+  const checkvalueJson =
+    newOutputData["matrixConfig"]["VC"]["mainFee"]["matrix"];
 
-  const jsonData = JSON.stringify(typeOfVehicle);
+  for (let index in checkvalueJson) {
+    const value = checkvalueJson[index]["value"];
+  }
+
+  const jsonData = JSON.stringify(dict);
 
   fs.writeFile("st_206.json", jsonData, "utf8")
     .then(() => {

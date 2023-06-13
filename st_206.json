@@ -1,453 +1,673 @@
-[
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thai Ha_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-5T",
-  "Thai Ha_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-2T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-2T",
-  "Nhat Long_YMNorth-15T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-5T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-15T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Thai Ha_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Nhat Long_YMNorth-7T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-5T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-15T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Nhat Long_YMNorth-5T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thai Ha_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-2T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Nhat Long_YMNorth-1.25T",
-  "Nhat Long_YMNorth-1.25T",
-  "Nhat Long_YMNorth-1.25T",
-  "Nhat Long_YMNorth-1.25T",
-  "Nhat Long_YMNorth-1.25T",
-  "Nhat Long_YMNorth-1.25T",
-  "Nhat Long_YMNorth-1.25T",
-  "Nhat Long_YMNorth-1.25T",
-  "Nhat Long_YMNorth-1.25T",
-  "Nhat Long_YMNorth-1.25T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-15T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T",
-  "Thanh Cong_YMNorth-7T"
-]
+{
+  "solutions": [
+    {
+      "routes": [
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-1.25T",
+          "vehicleCode": "89C-21679",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "9000000114_9521430201",
+              "lat": 21.0102183,
+              "lng": 105.8165984
+            },
+            {
+              "location_code": "5000003575",
+              "lat": 20.997945,
+              "lng": 105.840524
+            },
+            {
+              "location_code": "6000003572",
+              "lat": 21.015918,
+              "lng": 105.8055705
+            },
+            {
+              "location_code": "6000003229",
+              "lat": 21.0024019,
+              "lng": 105.8702148
+            },
+            {
+              "location_code": "6000009093",
+              "lat": 21.0387927,
+              "lng": 105.8119004
+            },
+            {
+              "location_code": "9000000102_9521430197",
+              "lat": 21.0332879,
+              "lng": 105.8145169
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-7T",
+          "vehicleCode": "89C-11481",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000022136",
+              "lat": 21.0606886,
+              "lng": 105.6795009
+            },
+            {
+              "location_code": "6000011616",
+              "lat": 21.1710911,
+              "lng": 105.4580694
+            },
+            {
+              "location_code": "5000012207",
+              "lat": 21.0846278,
+              "lng": 105.670145
+            },
+            {
+              "location_code": "6000022704",
+              "lat": 21.0075179,
+              "lng": 105.5415755
+            },
+            {
+              "location_code": "6000021379",
+              "lat": 21.1110619,
+              "lng": 105.6331391
+            },
+            {
+              "location_code": "5000015676",
+              "lat": 21.1982004,
+              "lng": 105.4243425
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-7T",
+          "vehicleCode": "89C-20703",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000008571",
+              "lat": 20.9505299,
+              "lng": 105.8333728
+            },
+            {
+              "location_code": "6000014099",
+              "lat": 20.9293465,
+              "lng": 105.6713389
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thai Ha YMNorth-15T",
+          "vehicleCode": "29H-85264",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000011293",
+              "lat": 19.8307985,
+              "lng": 105.8031
+            },
+            {
+              "location_code": "5000003602",
+              "lat": 19.8000892,
+              "lng": 105.7765707
+            },
+            {
+              "location_code": "6000003646",
+              "lat": 19.829079,
+              "lng": 105.7676717
+            },
+            {
+              "location_code": "5000009890",
+              "lat": 19.8561896,
+              "lng": 105.8539834
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-15T",
+          "vehicleCode": "89H-00287",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000024601",
+              "lat": 18.6660263,
+              "lng": 105.6146836
+            },
+            {
+              "location_code": "6000004845",
+              "lat": 18.6672211,
+              "lng": 105.6833854
+            },
+            {
+              "location_code": "6000004054",
+              "lat": 18.7117531,
+              "lng": 105.6293476
+            },
+            {
+              "location_code": "6000016538",
+              "lat": 18.7082875,
+              "lng": 105.6537162
+            },
+            {
+              "location_code": "6000024877",
+              "lat": 18.6639601,
+              "lng": 105.6829342
+            },
+            {
+              "location_code": "6000014555",
+              "lat": 18.6592955,
+              "lng": 105.6813235
+            },
+            {
+              "location_code": "9000000051_9521431187",
+              "lat": 18.7130118,
+              "lng": 105.5460582
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Nhat Long_YMNorth-7T",
+          "vehicleCode": "29H-26951",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000003644",
+              "lat": 21.6894617,
+              "lng": 104.9184443
+            },
+            {
+              "location_code": "6000016685",
+              "lat": 21.6894617,
+              "lng": 104.9184443
+            },
+            {
+              "location_code": "5000016491",
+              "lat": 21.60193675172827,
+              "lng": 104.50985926007998
+            },
+            {
+              "location_code": "6000022197",
+              "lat": 21.7190744,
+              "lng": 104.9126044
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Nhat Long_YMNorth-7T",
+          "vehicleCode": "29C-76391",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "5000017780",
+              "lat": 21.4138656,
+              "lng": 105.8730678
+            },
+            {
+              "location_code": "6000022139",
+              "lat": 21.3782354,
+              "lng": 105.8717872
+            },
+            {
+              "location_code": "6000003578",
+              "lat": 21.5907211,
+              "lng": 105.8266891
+            },
+            {
+              "location_code": "5000013969",
+              "lat": 21.4742093,
+              "lng": 105.8334331
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Nhat Long_YMNorth-5T",
+          "vehicleCode": "29C-71743",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000016738",
+              "lat": 21.6104311,
+              "lng": 105.8072817
+            },
+            {
+              "location_code": "6000024692",
+              "lat": 21.5650211,
+              "lng": 105.8576258
+            },
+            {
+              "location_code": "6000024301",
+              "lat": 21.5574043,
+              "lng": 105.8041225
+            },
+            {
+              "location_code": "6000023316",
+              "lat": 21.6408152,
+              "lng": 105.6267334
+            },
+            {
+              "location_code": "5000013863",
+              "lat": 21.6313402,
+              "lng": 105.6411979
+            },
+            {
+              "location_code": "5000016507",
+              "lat": 21.5903499,
+              "lng": 105.8305999
+            },
+            {
+              "location_code": "6000014706",
+              "lat": 21.911506,
+              "lng": 105.6441852
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thai Ha YMNorth-7T",
+          "vehicleCode": "29H-85296",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000013307",
+              "lat": 20.8298469,
+              "lng": 106.6726072
+            },
+            {
+              "location_code": "6000003774",
+              "lat": 20.8298469,
+              "lng": 106.6726072
+            },
+            {
+              "location_code": "6000003552",
+              "lat": 20.8622472,
+              "lng": 106.660604
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-7T",
+          "vehicleCode": "89C-04746",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000003774",
+              "lat": 20.8298469,
+              "lng": 106.6726072
+            },
+            {
+              "location_code": "6000012712",
+              "lat": 20.8734417,
+              "lng": 106.6520973
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-5T",
+          "vehicleCode": "89C-20767",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000021390",
+              "lat": 20.3974479,
+              "lng": 106.1866496
+            },
+            {
+              "location_code": "6000019350",
+              "lat": 20.42589696723317,
+              "lng": 106.17575951191712
+            },
+            {
+              "location_code": "5000003595",
+              "lat": 20.4368746,
+              "lng": 106.1554359
+            },
+            {
+              "location_code": "5000014873",
+              "lat": 20.4321752,
+              "lng": 106.162208
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-15T",
+          "vehicleCode": "89H-00381",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000015379",
+              "lat": 20.4674502,
+              "lng": 106.3146625
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-2T",
+          "vehicleCode": "89H-00581",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000003105",
+              "lat": 21.0367512,
+              "lng": 105.7880861
+            },
+            {
+              "location_code": "5000003818",
+              "lat": 21.069129,
+              "lng": 105.7860569
+            },
+            {
+              "location_code": "9000000051_9521428245",
+              "lat": 21.0072954,
+              "lng": 105.8007437
+            },
+            {
+              "location_code": "6000003249",
+              "lat": 21.0787127,
+              "lng": 105.7862114
+            },
+            {
+              "location_code": "9000000053_9521429732",
+              "lat": 21.0178048,
+              "lng": 105.8087178
+            },
+            {
+              "location_code": "7950102649_9521429547",
+              "lat": 21.0226691,
+              "lng": 105.7909492
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Nhat Long_YMNorth-5T",
+          "vehicleCode": "29C-38699",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000024689",
+              "lat": 21.0525428,
+              "lng": 105.8882165
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-15T",
+          "vehicleCode": "89H-00865",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "5000003631",
+              "lat": 21.0298833,
+              "lng": 105.9074818
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-2T",
+          "vehicleCode": "89H-00505",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "5000012691",
+              "lat": 21.045668,
+              "lng": 105.875245
+            },
+            {
+              "location_code": "5000004373",
+              "lat": 21.0525566,
+              "lng": 105.8909798
+            },
+            {
+              "location_code": "5000003632",
+              "lat": 21.0268964,
+              "lng": 105.848816
+            },
+            {
+              "location_code": "6000009679",
+              "lat": 21.0038709,
+              "lng": 105.8689158
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Nhat Long_YMNorth-15T",
+          "vehicleCode": "89C-11038",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000007858",
+              "lat": 20.9773078,
+              "lng": 105.9205314
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-15T",
+          "vehicleCode": "89H-01433",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000023321",
+              "lat": 18.8672691,
+              "lng": 105.2715733
+            },
+            {
+              "location_code": "6000004845",
+              "lat": 18.6672211,
+              "lng": 105.6833854
+            },
+            {
+              "location_code": "5000009977",
+              "lat": 18.6650659,
+              "lng": 105.6739604
+            },
+            {
+              "location_code": "6000024601",
+              "lat": 18.6660263,
+              "lng": 105.6146836
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Nhat Long_YMNorth-7T",
+          "vehicleCode": "29C-46288",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "5000003530",
+              "lat": 21.3079679,
+              "lng": 105.6187345
+            },
+            {
+              "location_code": "6000003570",
+              "lat": 21.3265601,
+              "lng": 105.5984998
+            },
+            {
+              "location_code": "6000011171",
+              "lat": 21.3272752,
+              "lng": 105.5423082
+            },
+            {
+              "location_code": "5000003787",
+              "lat": 21.3067437,
+              "lng": 105.5779712
+            },
+            {
+              "location_code": "5000003603",
+              "lat": 21.3068603,
+              "lng": 105.618344
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-5T",
+          "vehicleCode": "89C-16633",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000008132",
+              "lat": 20.8978846,
+              "lng": 105.9795395
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-5T",
+          "vehicleCode": "89H-00342",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000003646",
+              "lat": 19.829079,
+              "lng": 105.7676717
+            },
+            {
+              "location_code": "6000004845",
+              "lat": 18.6672211,
+              "lng": 105.6833854
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-7T",
+          "vehicleCode": "89C-16225",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000003644",
+              "lat": 21.6894617,
+              "lng": 104.9184443
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-15T",
+          "vehicleCode": "89H-01650",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000015379",
+              "lat": 20.4674502,
+              "lng": 106.3146625
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Nhat Long_YMNorth-15T",
+          "vehicleCode": "89C-05959",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000024591",
+              "lat": 20.4344842,
+              "lng": 106.3374527
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Nhat Long_YMNorth-5T",
+          "vehicleCode": "29C-39780",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000024591",
+              "lat": 20.4344842,
+              "lng": 106.3374527
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thai Ha YMNorth-1.25T",
+          "vehicleCode": "29H-19384",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000015294",
+              "lat": 20.9717465,
+              "lng": 105.8288078
+            },
+            {
+              "location_code": "5000016506",
+              "lat": 20.9746877,
+              "lng": 105.8413711
+            },
+            {
+              "location_code": "5000003575",
+              "lat": 20.997945,
+              "lng": 105.840524
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Nhat Long_YMNorth-1.25T",
+          "vehicleCode": "29H-17753",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000003229",
+              "lat": 21.0024019,
+              "lng": 105.8702148
+            },
+            {
+              "location_code": "5000003580",
+              "lat": 21.0291666,
+              "lng": 105.8122086
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-7T",
+          "vehicleCode": "89C-19233",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "5000016240",
+              "lat": 22.2445777,
+              "lng": 104.4781532
+            },
+            {
+              "location_code": "6000004406",
+              "lat": 22.4954028,
+              "lng": 103.979649
+            },
+            {
+              "location_code": "6000019777",
+              "lat": 22.389907,
+              "lng": 103.5050151
+            },
+            {
+              "location_code": "6000009467",
+              "lat": 22.4954028,
+              "lng": 103.979649
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-7T",
+          "vehicleCode": "89C-16148",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000003104",
+              "lat": 21.000504,
+              "lng": 105.815387
+            }
+          ]
+        },
+        {
+          "typeOfVehicle": "Thanh Cong_YMNorth-7T",
+          "vehicleCode": "89C-19876",
+          "elements": [
+            { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
+            {
+              "location_code": "6000021809",
+              "lat": 21.4306031,
+              "lng": 103.7810579
+            },
+            {
+              "location_code": "6000016711",
+              "lat": 21.056025,
+              "lng": 104.0030051
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
