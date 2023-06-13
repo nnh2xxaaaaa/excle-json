@@ -4,7 +4,7 @@
       "routes": [
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-1.25T",
-          "vehicleCode": "89C-21679",
+          "vehicle_code": " ----89C-21679",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -41,7 +41,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-7T",
-          "vehicleCode": "89C-11481",
+          "vehicle_code": " ----89C-11481",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -78,7 +78,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-7T",
-          "vehicleCode": "89C-20703",
+          "vehicle_code": " ----89C-20703",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -95,7 +95,7 @@
         },
         {
           "typeOfVehicle": "Thai Ha YMNorth-15T",
-          "vehicleCode": "29H-85264",
+          "vehicle_code": " ----29H-85264",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -122,7 +122,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-15T",
-          "vehicleCode": "89H-00287",
+          "vehicle_code": " ----89H-00287",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -164,7 +164,7 @@
         },
         {
           "typeOfVehicle": "Nhat Long_YMNorth-7T",
-          "vehicleCode": "29H-26951",
+          "vehicle_code": " ----29H-26951",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -191,7 +191,7 @@
         },
         {
           "typeOfVehicle": "Nhat Long_YMNorth-7T",
-          "vehicleCode": "29C-76391",
+          "vehicle_code": " ----29C-76391",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -218,7 +218,7 @@
         },
         {
           "typeOfVehicle": "Nhat Long_YMNorth-5T",
-          "vehicleCode": "29C-71743",
+          "vehicle_code": " ----29C-71743",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -260,7 +260,7 @@
         },
         {
           "typeOfVehicle": "Thai Ha YMNorth-7T",
-          "vehicleCode": "29H-85296",
+          "vehicle_code": " ----29H-85296",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -282,7 +282,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-7T",
-          "vehicleCode": "89C-04746",
+          "vehicle_code": " ----89C-04746",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -299,7 +299,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-5T",
-          "vehicleCode": "89C-20767",
+          "vehicle_code": " ----89C-20767",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -326,7 +326,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-15T",
-          "vehicleCode": "89H-00381",
+          "vehicle_code": " ----89H-00381-",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -338,7 +338,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-2T",
-          "vehicleCode": "89H-00581",
+          "vehicle_code": " ----89H-00581",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -375,7 +375,7 @@
         },
         {
           "typeOfVehicle": "Nhat Long_YMNorth-5T",
-          "vehicleCode": "29C-38699",
+          "vehicle_code": " ----29C-38699",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -387,7 +387,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-15T",
-          "vehicleCode": "89H-00865",
+          "vehicle_code": " ----89H-00865",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -399,7 +399,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-2T",
-          "vehicleCode": "89H-00505",
+          "vehicle_code": " ----89H-00505",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -426,7 +426,7 @@
         },
         {
           "typeOfVehicle": "Nhat Long_YMNorth-15T",
-          "vehicleCode": "89C-11038",
+          "vehicle_code": " ----89C-11038",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -438,7 +438,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-15T",
-          "vehicleCode": "89H-01433",
+          "vehicle_code": " ----89H-01433",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -465,7 +465,7 @@
         },
         {
           "typeOfVehicle": "Nhat Long_YMNorth-7T",
-          "vehicleCode": "29C-46288",
+          "vehicle_code": " ----29C-46288",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -497,7 +497,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-5T",
-          "vehicleCode": "89C-16633",
+          "vehicle_code": " ----89C-16633",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -509,7 +509,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-5T",
-          "vehicleCode": "89H-00342",
+          "vehicle_code": " ----89H-00342",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -526,7 +526,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-7T",
-          "vehicleCode": "89C-16225",
+          "vehicle_code": " ----89C-16225",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -538,7 +538,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-15T",
-          "vehicleCode": "89H-01650",
+          "vehicle_code": " ----89H-01650",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -550,7 +550,7 @@
         },
         {
           "typeOfVehicle": "Nhat Long_YMNorth-15T",
-          "vehicleCode": "89C-05959",
+          "vehicle_code": " ----89C-05959",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -562,7 +562,7 @@
         },
         {
           "typeOfVehicle": "Nhat Long_YMNorth-5T",
-          "vehicleCode": "29C-39780",
+          "vehicle_code": " ----29C-39780",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -574,7 +574,7 @@
         },
         {
           "typeOfVehicle": "Thai Ha YMNorth-1.25T",
-          "vehicleCode": "29H-19384",
+          "vehicle_code": " ----29H-19384",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -596,7 +596,7 @@
         },
         {
           "typeOfVehicle": "Nhat Long_YMNorth-1.25T",
-          "vehicleCode": "29H-17753",
+          "vehicle_code": " ----29H-17753",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -613,7 +613,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-7T",
-          "vehicleCode": "89C-19233",
+          "vehicle_code": " ----89C-19233",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -640,7 +640,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-7T",
-          "vehicleCode": "89C-16148",
+          "vehicle_code": " ----89C-16148",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
@@ -652,7 +652,7 @@
         },
         {
           "typeOfVehicle": "Thanh Cong_YMNorth-7T",
-          "vehicleCode": "89C-19876",
+          "vehicle_code": " ----89C-19876",
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
