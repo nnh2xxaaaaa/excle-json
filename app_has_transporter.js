@@ -218,18 +218,19 @@ wb.xlsx.readFile(fileName).then(() => {
       ).map(JSON.parse);
     }
   }
- 
+
   function filterElements(elements) {
-    return elements.filter((element) => element.lat !== undefined && element.lng !== undefined);
+    return elements.filter(
+      (element) => element.lat !== undefined && element.lng !== undefined
+    );
   }
-  
+
   // Loop through the object and filter elements
   dict.solutions.forEach((solution) => {
     solution.routes.forEach((route) => {
       route.elements = filterElements(route.elements);
     });
   });
-
 
   const jsonData = JSON.stringify(dict);
 
