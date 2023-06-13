@@ -1,5 +1,4 @@
 import inputData from "./newInputData.json" assert { type: "json" };
-import newOutputData from "./newInputData.json" assert { type: "json" };
 import fs from "fs/promises";
 import ExcelJS from "exceljs";
 
@@ -11,14 +10,16 @@ const fileName = "Actual_test_206.xlsx";
 wb.xlsx.readFile(fileName).then(() => {
   //select sheet  file in excel
   const ws = wb.getWorksheet(3);
+  //deliverNo Column
+  const filterDeliverNo = ws.getColumn(3).values;
   //select Coloumn
   const filter_shipto_party_number = ws.getColumn(5).values;
   //select Coloumn
   const filter_Trucking_Number = ws.getColumn(7).values;
-  //select Coloumn Transporter
-  const filter_transporter = ws.getColumn(10).values;
   //select Colomun
   const filter_truck_capacity_in_tons = ws.getColumn(9).values;
+  //select Coloumn Transporter
+  const filter_transporter = ws.getColumn(10).values;
 
   function convertString(str) {
     // Split the string into individual words
@@ -29,7 +30,6 @@ wb.xlsx.readFile(fileName).then(() => {
       return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
     });
 
-    // Join the converted words back into a single string
     let convertedString;
     if (convertedWords.join(" ") === "Thai Ha") {
       convertedString = convertedWords.join(" ") + " YMNorth-";
@@ -40,13 +40,45 @@ wb.xlsx.readFile(fileName).then(() => {
 
     return convertedString;
   }
-  const typeOfVehicle = [];
-  for (let i = 2; i < filter_transporter.length; i++) {
-    typeOfVehicle.push(
-      convertString(filter_transporter[i]) +
+
+  const truckingNumberToVehicleCode = {};
+  for (let i = 2; i < filter_Trucking_Number.length; i++) {
+    if (!(filter_Trucking_Number[i] in truckingNumberToVehicleCode)) {
+      let thisTypeOfVehicle =
+        convertString(filter_transporter[i]) +
         filter_truck_capacity_in_tons[i] +
-        "T"
-    );
+        "T";
+      for (let veh of inputData["vehicles"]) {
+        if (veh["vType"]["typeOfVehicleByVendor"] === thisTypeOfVehicle) {
+          truckingNumberToVehicleCode[filter_Trucking_Number[i]] =
+            veh["vehicleCode"];
+          break;
+        }
+      }
+    }
+  }
+
+  const routes = [];
+  for (let i = 2; i < filter_Trucking_Number.length; i++) {
+    let r = {
+      vehicleCode: truckingNumberToVehicleCode[filter_Trucking_Number[i]],
+      requests: [filterDeliverNo[i]],
+      locationCode: [filter_shipto_party_number[i]],
+    };
+    let last_index = routes.length - 1;
+
+    if (filter_Trucking_Number[i - 1] === filter_Trucking_Number[i]) {
+      routes[last_index]["requests"].push(filterDeliverNo[i]);
+      routes[last_index]["requests"] = Array.from(
+        new Set(routes[last_index]["requests"])
+      );
+      routes[last_index]["locationCode"].push(filter_shipto_party_number[i]);
+      routes[last_index]["locationCode"] = Array.from(
+        new Set(routes[last_index]["locationCode"])
+      );
+    } else {
+      routes.push(r);
+    }
   }
 
   // return;
@@ -86,7 +118,6 @@ wb.xlsx.readFile(fileName).then(() => {
       });
     }
   }
-
   // console.log(test);
 
   // Create an object to store merged arrays
@@ -114,55 +145,7 @@ wb.xlsx.readFile(fileName).then(() => {
   );
 
   // Output the merged array
-
-  // grond car
-  const b = filter_Trucking_Number.slice(2);
-  const a = typeOfVehicle;
-
-  const carTrans = [];
-  for (let i = 0; i < b.length; i++) {
-    if (i >= 0 && b[i] !== b[i - 1]) {
-      carTrans.push({
-        trucking_number: b[i],
-        shipto_party_number: [a[i]],
-      });
-    } else if (i >= 0 && a[i] !== a[i - 1] && b[i] === b[i - 1]) {
-      carTrans[carTrans.length - 1].shipto_party_number.push({
-        location_code: a[i],
-      });
-    }
-  }
-
-  const mergedMap = {};
-
-  carTrans.forEach((obj) => {
-    const { trucking_number, shipto_party_number } = obj;
-
-    if (mergedMap[trucking_number]) {
-      if (Array.isArray(mergedMap[trucking_number].shipto_party_number)) {
-        mergedMap[trucking_number].shipto_party_number.push(
-          ...shipto_party_number
-        );
-      } else {
-        mergedMap[trucking_number].shipto_party_number = [
-          mergedMap[trucking_number].shipto_party_number,
-          ...shipto_party_number,
-        ];
-      }
-    } else {
-      mergedMap[trucking_number] = { trucking_number, shipto_party_number };
-    }
-  });
-
-  // Remove duplicate values within shipto_party_number arrays
-  Object.values(mergedMap).forEach((obj) => {
-    if (Array.isArray(obj.shipto_party_number)) {
-      obj.shipto_party_number = Array.from(new Set(obj.shipto_party_number));
-    }
-  });
-
-  const marCar = Array.from(Object.values(mergedMap));
-  const cargr = marCar.map((obj) => obj.shipto_party_number.join(""));
+  // console.log(mergedArray);
 
   // creat data json
   const dict = {
@@ -177,7 +160,7 @@ wb.xlsx.readFile(fileName).then(() => {
     return inputData.locations.find((x) => x.locationCode == location_code);
   };
   // add depotcenter
-  const findDepot = newOutputData["locations"];
+  const findDepot = inputData["locations"];
   const dataDepot = "DEPOT";
   const def = [];
   findDepot.map((x, i) => {
@@ -200,8 +183,7 @@ wb.xlsx.readFile(fileName).then(() => {
       currentEl.push(xx);
     });
     dict.solutions[0].routes.push({
-      typeOfVehicle: cargr[i],
-      vehicleCode: x.trucking_number,
+      vehicle_code: x.trucking_number,
       elements: currentEl,
     });
   });
@@ -213,17 +195,10 @@ wb.xlsx.readFile(fileName).then(() => {
       ).map(JSON.parse);
     }
   }
-  const bins = dict.solutions[0].routes;
-  const checkvalueJson =
-    newOutputData["matrixConfig"]["VC"]["mainFee"]["matrix"];
 
-  for (let index in checkvalueJson) {
-    const value = checkvalueJson[index]["value"];
-  }
+  const jsonData = JSON.stringify(routes);
 
-  const jsonData = JSON.stringify(dict);
-
-  fs.writeFile("st_206.json", jsonData, "utf8")
+  fs.writeFile("dataHandle.json", jsonData, "utf8")
     .then(() => {
       console.log("JSON file has been created.");
     })

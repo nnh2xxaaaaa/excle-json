@@ -247,6 +247,7 @@
         },
         {
           "vehicle_code": "29H-26951",
+
           "elements": [
             { "location_code": "9511", "lat": 20.8987293, "lng": 106.050436 },
             {
