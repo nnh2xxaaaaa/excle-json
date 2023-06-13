@@ -43,7 +43,7 @@ wb.xlsx.readFile(fileName).then(() => {
     );
   }
 
-  // return;
+
 
   //sum up the points in 1 car
 
