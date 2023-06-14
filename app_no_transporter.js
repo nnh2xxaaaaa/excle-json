@@ -86,9 +86,11 @@ wb.xlsx.readFile(fileName).then(() => {
 
   // delete emlments hacve locations no lat lng coordinates
   function filterElements(elements) {
-    return elements.filter((element) => element.lat !== undefined && element.lng !== undefined);
+    return elements.filter(
+      (element) => element.lat !== undefined && element.lng !== undefined
+    );
   }
-  
+
   // Loop through the object and filter elements
   dict.solutions.forEach((solution) => {
     solution.routes.forEach((route) => {
