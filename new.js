@@ -41,15 +41,27 @@ wb.xlsx.readFile(fileName).then(() => {
         return convertedString;
     }
 
-    const truckingNumberToVehicleCode = {}
+    const truckingNumberToVehicle = {}
     for (let i = 2; i < filter_Trucking_Number.length; i++) {
-        if (!(filter_Trucking_Number[i] in truckingNumberToVehicleCode)) {
+        if (!(filter_Trucking_Number[i] in truckingNumberToVehicle)) {
             let thisTypeOfVehicle = convertString(filter_transporter[i]) +
                 filter_truck_capacity_in_tons[i] + "T"
             for (let veh of inputData['vehicles']) {
                 if (veh['vType']['typeOfVehicleByVendor'] === thisTypeOfVehicle) {
-                    truckingNumberToVehicleCode[filter_Trucking_Number[i]] = veh['vehicleCode'];
+                    truckingNumberToVehicle[filter_Trucking_Number[i]] = veh;
                     break
+                }
+            }
+        }
+    }
+    const orderCodeToRequest = {}
+    for (let i = 2; i < filterDeliverNo.length; i++) {
+        if (!(filterDeliverNo[i] in orderCodeToRequest)) {
+            let thisOrderCode = filterDeliverNo[i].toString();
+            for (let req of inputData['requests']) {
+                if (req['orderCode'] === thisOrderCode) {
+                    orderCodeToRequest[thisOrderCode] = req;
+                    break;
                 }
             }
         }
@@ -58,7 +70,7 @@ wb.xlsx.readFile(fileName).then(() => {
     const routes = []
     for (let i = 2; i < filter_Trucking_Number.length; i++) {
         let r = {
-            'vehicleCode': truckingNumberToVehicleCode[filter_Trucking_Number[i]],
+            'vehicle': truckingNumberToVehicle[filter_Trucking_Number[i]],
             'requests': [filterDeliverNo[i]],
             'locationCode': [filter_shipto_party_number[i]],
         }
@@ -73,28 +85,106 @@ wb.xlsx.readFile(fileName).then(() => {
             routes.push(r)
         }
     }
+    const writeExcel = (data) => {
+        const jsonData = JSON.stringify(data);
+
+        fs.writeFile("st_206.json", jsonData, "utf8")
+            .then(() => {
+                console.log("JSON file has been created.");
+            })
+            .catch((err) => {
+                console.error("An error occurred:", err);
+            });
+    }
 
 
-    // return;
+    //loop through routes to call api
+    const fetchApi = () => {
+        let failCount = 0;
+        let additionalCar = 0;
+        let outputRoute = [];
+        const promises = []
+        for (let i = 0; i < routes.length; i++) {
+            let currentRoute = routes[i];
+            let items = []
+            currentRoute['requests'].forEach(req => {
+                let currentRequest = orderCodeToRequest[req];
+                currentRequest['items'].forEach(item => {
+                    let itemFormat = {
+                        'item_code': item.itemCode,
+                        'quantity': item.quantity,
+                        'weight': item.weight / item.quantity,
+                        'cbm': item.cbm / item.quantity,
+                        'size': {
+                            'length': item.size.length,
+                            'width': item.size.width,
+                            'height': item.size.height,
+                        },
+                        'i_type': {
+                            'type_of_item_by_vehicle': item.iType.typeOfItemByVehicle,
+                            'type_of_item_by_axis_lock': item.iType.typeOfItemByAxisLock,
+                            'type_of_item_by_stack_rule': item.iType.typeOfItemByStackRule,
+                        }
+                    }
+                    items.push(itemFormat);
+                })
+            })
+            let data = {
+                'items': items,
+                'size': {
+                    'length': currentRoute['vehicle']['size']['length'],
+                    'width': currentRoute['vehicle']['size']['width'],
+                    'height': currentRoute['vehicle']['size']['height'],
+                }
+            }
 
-    //sum up the points in 1 car
+            const url = 'http://localhost:7001/depot';
+            const promise =
+                fetch(url, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                })
+                    .then(response => response.json())
+                    .then(result => {
+                        if (result.length == 0) {
+                            console.log("couldn't process route");
+                            failCount += 1;
+                        }
+                        for (let t = 0; t < result.length; t++) {
+                            if (t != 0) {
+                                additionalCar += 1;
+                                result[t]['total_cost'] = 'FAIL'
+                            }
+                            result[t]['vehicle_code'] = currentRoute['vehicle']['vehicleCode'];
 
-    // const groups = {};
-    // for (let i = 2; i < filter_Trucking_Number.length; i++) {
-    //   const tt = filter_Trucking_Number[i];
-    //   const x = filter_shipto_party_number[i];
-    //   const kk = typeOfVehicle[i];
+                            result[t]['elements'][0]['location_code'] = '9511';
+                            result[t]['elements'][0]['location_type'] = 'DEPOT'
+                            let copy = JSON.parse(JSON.stringify(result[t]['elements'][0]));
+                            copy['location_type'] = 'CUSTOMER'
+                            result[t]['elements'].push(copy);
 
-    //   if (groups.hasOwnProperty(tt)) {
-    //     if (!groups[tt].includes(x)) {
-    //       groups[tt].push(x, kk);
-    //     }
-    //   } else {
-    //     groups[tt] = [x, kk];
-    //   }
-    // }
-    // console.log(groups);
+                        }
+                        outputRoute = outputRoute.concat(result)
 
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            promises.push(promise)
+        }
+        Promise.all(promises).then(() => {
+            console.log("fail: " + failCount.toString());
+            console.log("vehicle to be added: " + additionalCar.toString())
+            writeExcel({ 'solutions': [{ 'routes': outputRoute }] });
+        })
+        // writeExcel(outputRoute);
+    }
+    fetchApi();
+
+    const typeOfVehicle = []
     const test = [];
     for (let i = 1; i < filter_shipto_party_number.length; i++) {
         if (i >= 2 && filter_Trucking_Number[i] != filter_Trucking_Number[i - 1]) {
@@ -192,13 +282,4 @@ wb.xlsx.readFile(fileName).then(() => {
         }
     }
 
-    const jsonData = JSON.stringify(typeOfVehicle);
-
-    fs.writeFile("st_206.json", jsonData, "utf8")
-        .then(() => {
-            console.log("JSON file has been created.");
-        })
-        .catch((err) => {
-            console.error("An error occurred:", err);
-        });
 });
