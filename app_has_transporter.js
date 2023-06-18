@@ -3,11 +3,11 @@ import fs from "fs/promises";
 import ExcelJS from "exceljs";
 
 const wb = new ExcelJS.Workbook();
-const fileName = "ICD_PROVINCE_8th_demo_X.Trang.xlsx";
+const fileName = "Actual_test_206.xlsx";
 
 wb.xlsx.readFile(fileName).then(() => {
   //select sheet  file in excel
-  const ws = wb.getWorksheet(4);
+  const ws = wb.getWorksheet(1);
   //select column shipto party number (customer location code)
   const filter_shipto_party_number = ws.getColumn(9).values;
   //select column vehicle weight
@@ -16,13 +16,14 @@ wb.xlsx.readFile(fileName).then(() => {
   const filter_transporter = ws.getColumn(6).values;
   //select column trucking number (truck plate)
   const filter_add_truckingnumber = ws.getColumn(5).values;
-  // console.log(filter_add_truckingnumber);
+  console.log(filter_add_truckingnumber);
+  // return
   const filter_Trucking_Number = filter_add_truckingnumber.map(
     (value, index) => {
       return value.split(" ")[0];
     }
   );
-  console.log(filter_Trucking_Number);
+  // console.log(filter_Trucking_Number);
   function convertString(str) {
     const words = str.split(" ");
     // Convert each word to lowercase and capitalize the first letter
@@ -35,7 +36,7 @@ wb.xlsx.readFile(fileName).then(() => {
       convertedString = convertedWords.join(" ") + " YMNorth-";
     } else {
       // Join the converted words back into a single string
-      convertedString = `${convertedWords.join(" ")}_ICD-`;
+      convertedString = `${convertedWords.join(" ")}_YMNorth-`;
     }
     return convertedString;
   }
@@ -74,7 +75,7 @@ wb.xlsx.readFile(fileName).then(() => {
     convertedObject[key] = updatedValue;
   }
 
-  console.log(convertedObject);
+  // console.log(convertedObject);
   console.log(truckingNumberToVehicleType);
 
   let finalRoute = [];
@@ -189,7 +190,7 @@ wb.xlsx.readFile(fileName).then(() => {
 
   console.log(totalTotalCost);
   const jsonData = JSON.stringify(outputDict);
-  fs.writeFile("st_206.json", jsonData, "utf8")
+  fs.writeFile("newOutputdata.json", jsonData, "utf8")
     .then(() => {
       console.log("JSON file has been created.");
     })
