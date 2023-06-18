@@ -3,11 +3,11 @@ import fs from "fs/promises";
 import ExcelJS from "exceljs";
 
 const wb = new ExcelJS.Workbook();
-const fileName = "Actual_test_206.xlsx";
+const fileName = "VLong_8th_Demo_D.Phuong_ok.xlsx";
 
 wb.xlsx.readFile(fileName).then(() => {
   //select sheet  file in excel
-  const ws = wb.getWorksheet(1);
+  const ws = wb.getWorksheet(4);
   //select column shipto party number (customer location code)
   const filter_shipto_party_number = ws.getColumn(9).values;
   //select column vehicle weight
@@ -36,7 +36,7 @@ wb.xlsx.readFile(fileName).then(() => {
       convertedString = convertedWords.join(" ") + " YMNorth-";
     } else {
       // Join the converted words back into a single string
-      convertedString = `${convertedWords.join(" ")}_YMNorth-`;
+      convertedString = `${convertedWords.join(" ")}_BM-`;
     }
     return convertedString;
   }
@@ -82,7 +82,8 @@ wb.xlsx.readFile(fileName).then(() => {
   for (let key in truckingRoute) {
     let depot = [inputData["depots"][0]["depotCode"]];
     let routeFormat = {
-      vehicleType: convertedObject[key],
+      // check value for customs
+      vehicleType: truckingNumberToVehicleType[key],
       elements: [...depot, ...truckingRoute[key]],
     };
     finalRoute.push(routeFormat);
