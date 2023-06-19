@@ -3,11 +3,11 @@ import fs from "fs/promises";
 import ExcelJS from "exceljs";
 
 const wb = new ExcelJS.Workbook();
-const fileName = "YMSOUTH_8th_demo_DPhuong_ok.xlsx";
+const fileName = "KH_Actual_test/Actual_test_206.xlsx";
 
 wb.xlsx.readFile(fileName).then(() => {
   //select sheet  file in excel
-  const ws = wb.getWorksheet(4);
+  const ws = wb.getWorksheet(1);
   //select column shipto party number (customer location code)
   const filter_shipto_party_number = ws.getColumn(9).values;
   //select column vehicle weight
@@ -18,15 +18,15 @@ wb.xlsx.readFile(fileName).then(() => {
   const filter_add_truckingnumber = ws.getColumn(5).values;
   console.log(filter_add_truckingnumber);
 
-  const filter_cbm = ws.getColumn(16).values;
+  const filter_cbm = ws.getColumn(15).values;
 
-  // return
+  // return;
   const filter_Trucking_Number = filter_add_truckingnumber.map(
     (value, index) => {
       return value.split(" ")[0];
     }
   );
-  // console.log(filter_Trucking_Number);
+  console.log(filter_Trucking_Number);
   function convertString(str) {
     const words = str.split(" ");
     // Convert each word to lowercase and capitalize the first letter
@@ -39,7 +39,7 @@ wb.xlsx.readFile(fileName).then(() => {
       convertedString = convertedWords.join(" ") + " YMNorth-";
     } else {
       // Join the converted words back into a single string
-      convertedString = `${convertedWords.join(" ")}_BM-`;
+      convertedString = `${convertedWords.join(" ")}_YMNorth-`;
     }
     return convertedString;
   }
@@ -71,9 +71,8 @@ wb.xlsx.readFile(fileName).then(() => {
     } else {
       truckingRoute[thisTruckingNumber].total_cbm_load += filter_cbm[i];
     }
-
   }
-  // console.log(truckingNumberToVehicleType);
+  console.log(truckingNumberToVehicleType);
   const updatedObject = {};
   const convertedObject = {};
 
@@ -84,16 +83,16 @@ wb.xlsx.readFile(fileName).then(() => {
     convertedObject[key] = updatedValue;
   }
 
-  // console.log(convertedObject);
-  console.log(truckingNumberToVehicleType);
+  console.log(convertedObject);
+  // console.log(truckingNumberToVehicleType);
 
   let finalRoute = [];
   for (let key in truckingRoute) {
     let depot = [inputData["depots"][0]["depotCode"]];
     let routeFormat = {
       // check value for customs
-      vehicleType: truckingNumberToVehicleType[key],
-      total_cbm_load:  truckingRoute[key].total_cbm_load,
+      vehicleType: convertedObject[key],
+      total_cbm_load: truckingRoute[key].total_cbm_load,
       elements: [...depot, ...truckingRoute[key]],
     };
     finalRoute.push(routeFormat);

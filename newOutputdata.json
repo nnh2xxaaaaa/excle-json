@@ -1,1 +1,428 @@
-{"solutions":[{"routes":[{"vehicle_code":"Vinafco_BM-15T","vehicle_cbm":0,"total_cbm_load":76,"total_cost":0,"main_cost":0,"additional_cost":0,"elements":[{"location_code":"9523","location_type":null},{"location_code":"6000017185","location_type":null},{"location_code":"6000016269","location_type":null},{"location_code":"5000011021","location_type":null},{"location_code":"6000023180","location_type":null},{"location_code":"6000017755","location_type":null},{"location_code":"5000016072","location_type":null}]},{"vehicle_code":"Nhat Long_BM-15T","vehicle_cbm":0,"total_cbm_load":52,"total_cost":0,"main_cost":0,"additional_cost":0,"elements":[{"location_code":"9523","location_type":null},{"location_code":"5000015571","location_type":null},{"location_code":"5000014602","location_type":null},{"location_code":"6000011631","location_type":null},{"location_code":"6000014642","location_type":null},{"location_code":"6000016007","location_type":null}]},{"vehicle_code":"Nhat Long_BM-15T","vehicle_cbm":0,"total_cbm_load":119,"total_cost":0,"main_cost":0,"additional_cost":0,"elements":[{"location_code":"9523","location_type":null},{"location_code":"6000014909","location_type":null},{"location_code":"6000008568","location_type":null},{"location_code":"6000004263","location_type":null},{"location_code":"6000016042","location_type":null},{"location_code":"6000019505","location_type":null},{"location_code":"6000022306","location_type":null},{"location_code":"6000011195","location_type":null},{"location_code":"6000010748","location_type":null}]},{"vehicle_code":"Vinafco_BM-15T","vehicle_cbm":0,"total_cbm_load":63,"total_cost":0,"main_cost":0,"additional_cost":0,"elements":[{"location_code":"9523","location_type":null},{"location_code":"6000013215","location_type":null},{"location_code":"5000014603","location_type":null},{"location_code":"6000014376","location_type":null},{"location_code":"6000014158","location_type":null},{"location_code":"6000020382","location_type":null},{"location_code":"6000023125","location_type":null},{"location_code":"6000022781","location_type":null},{"location_code":"5000014697","location_type":null},{"location_code":"6000019828","location_type":null}]},{"vehicle_code":"Nhat Phong Van_BM-15T","vehicle_cbm":0,"total_cbm_load":58,"total_cost":0,"main_cost":0,"additional_cost":0,"elements":[{"location_code":"9523","location_type":null},{"location_code":"6000023369","location_type":null},{"location_code":"6000009044","location_type":null},{"location_code":"5000016297","location_type":null},{"location_code":"6000017798","location_type":null},{"location_code":"6000010972","location_type":null},{"location_code":"6000016359","location_type":null},{"location_code":"6000013315","location_type":null}]}]}]}
+{
+  "solutions": [
+    {
+      "routes": [
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-1.25T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 7.431162812499998,
+          "total_cost": 915000,
+          "main_cost": 665000,
+          "additional_cost": 250000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "9000000114_9521430201", "location_type": null },
+            { "location_code": "5000003575", "location_type": null },
+            { "location_code": "6000003572", "location_type": null },
+            { "location_code": "6000003229", "location_type": null },
+            { "location_code": "6000009093", "location_type": null },
+            { "location_code": "9000000102_9521430197", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-7T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 21.3200665,
+          "total_cost": 2395499,
+          "main_cost": 1645499,
+          "additional_cost": 750000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000022136", "location_type": null },
+            { "location_code": "6000011616", "location_type": null },
+            { "location_code": "5000012207", "location_type": null },
+            { "location_code": "6000022704", "location_type": null },
+            { "location_code": "6000021379", "location_type": null },
+            { "location_code": "5000015676", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-7T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 25.13949625,
+          "total_cost": 1728789,
+          "main_cost": 1578789,
+          "additional_cost": 150000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000008571", "location_type": null },
+            { "location_code": "6000014099", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thai Ha YMNorth-15T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 35.356135249999994,
+          "total_cost": 5106000,
+          "main_cost": 4656000,
+          "additional_cost": 450000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000011293", "location_type": null },
+            { "location_code": "5000003602", "location_type": null },
+            { "location_code": "6000003646", "location_type": null },
+            { "location_code": "5000009890", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-15T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 38.9025625,
+          "total_cost": 8312000,
+          "main_cost": 7412000,
+          "additional_cost": 900000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000024601", "location_type": null },
+            { "location_code": "6000004845", "location_type": null },
+            { "location_code": "6000004054", "location_type": null },
+            { "location_code": "6000016538", "location_type": null },
+            { "location_code": "6000024877", "location_type": null },
+            { "location_code": "6000014555", "location_type": null },
+            { "location_code": "9000000051_9521431187", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Nhat Long_YMNorth-7T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 22.026653500000002,
+          "total_cost": 5220000,
+          "main_cost": 4830000,
+          "additional_cost": 390000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000003644", "location_type": null },
+            { "location_code": "6000016685", "location_type": null },
+            { "location_code": "5000016491", "location_type": null },
+            { "location_code": "6000022197", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Nhat Long_YMNorth-7T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 25.46860275,
+          "total_cost": 2611000,
+          "main_cost": 2221000,
+          "additional_cost": 390000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "5000017780", "location_type": null },
+            { "location_code": "6000022139", "location_type": null },
+            { "location_code": "6000003578", "location_type": null },
+            { "location_code": "5000013969", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Nhat Long_YMNorth-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 18.090707749999996,
+          "total_cost": 2911000,
+          "main_cost": 2251000,
+          "additional_cost": 660000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000016738", "location_type": null },
+            { "location_code": "6000024692", "location_type": null },
+            { "location_code": "6000024301", "location_type": null },
+            { "location_code": "6000023316", "location_type": null },
+            { "location_code": "5000013863", "location_type": null },
+            { "location_code": "5000016507", "location_type": null },
+            { "location_code": "6000014706", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thai Ha YMNorth-7T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 27.451001875000006,
+          "total_cost": 2460000,
+          "main_cost": 2160000,
+          "additional_cost": 300000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000013307", "location_type": null },
+            { "location_code": "6000003774", "location_type": null },
+            { "location_code": "6000003552", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-7T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 30.257070500000005,
+          "total_cost": 2195755,
+          "main_cost": 2045755,
+          "additional_cost": 150000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000003774", "location_type": null },
+            { "location_code": "6000012712", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 20.713441499999995,
+          "total_cost": 2135038,
+          "main_cost": 1835038,
+          "additional_cost": 300000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000021390", "location_type": null },
+            { "location_code": "6000019350", "location_type": null },
+            { "location_code": "5000003595", "location_type": null },
+            { "location_code": "5000014873", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-15T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 38.70826275,
+          "total_cost": 2828267,
+          "main_cost": 2828267,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000015379", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-2T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 9.8492975,
+          "total_cost": 1305807,
+          "main_cost": 805807,
+          "additional_cost": 500000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000003105", "location_type": null },
+            { "location_code": "5000003818", "location_type": null },
+            { "location_code": "9000000051_9521428245", "location_type": null },
+            { "location_code": "6000003249", "location_type": null },
+            { "location_code": "9000000053_9521429732", "location_type": null },
+            { "location_code": "7950102649_9521429547", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Nhat Long_YMNorth-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 19.66635,
+          "total_cost": 982000,
+          "main_cost": 982000,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000024689", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-15T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 34.632582,
+          "total_cost": 2001282,
+          "main_cost": 2001282,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "5000003631", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-2T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 9.339375000000002,
+          "total_cost": 1078276,
+          "main_cost": 778276,
+          "additional_cost": 300000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "5000012691", "location_type": null },
+            { "location_code": "5000004373", "location_type": null },
+            { "location_code": "5000003632", "location_type": null },
+            { "location_code": "6000009679", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Nhat Long_YMNorth-15T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 32.351376887499995,
+          "total_cost": 1550000,
+          "main_cost": 1550000,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000007858", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-15T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 35.4431,
+          "total_cost": 7862000,
+          "main_cost": 7412000,
+          "additional_cost": 450000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000023321", "location_type": null },
+            { "location_code": "6000004845", "location_type": null },
+            { "location_code": "5000009977", "location_type": null },
+            { "location_code": "6000024601", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Nhat Long_YMNorth-7T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 25.874956499999996,
+          "total_cost": 2290000,
+          "main_cost": 1770000,
+          "additional_cost": 520000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "5000003530", "location_type": null },
+            { "location_code": "6000003570", "location_type": null },
+            { "location_code": "6000011171", "location_type": null },
+            { "location_code": "5000003787", "location_type": null },
+            { "location_code": "5000003603", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-5T",
+          "vehicle_cbm": 0,
+          "total_cost": 1146767,
+          "main_cost": 1146767,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000008132", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": null,
+          "total_cost": 5103205,
+          "main_cost": 5003205,
+          "additional_cost": 100000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000003646", "location_type": null },
+            { "location_code": "6000004845", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-7T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": null,
+          "total_cost": 3774905,
+          "main_cost": 3774905,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000003644", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-15T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 35.556374,
+          "total_cost": 2828267,
+          "main_cost": 2828267,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000015379", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Nhat Long_YMNorth-15T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 40.114035,
+          "total_cost": 2939000,
+          "main_cost": 2939000,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000024591", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Nhat Long_YMNorth-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 19.314165,
+          "total_cost": 1611000,
+          "main_cost": 1611000,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000024591", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thai Ha YMNorth-1.25T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 7.12664025,
+          "total_cost": 972000,
+          "main_cost": 672000,
+          "additional_cost": 300000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000015294", "location_type": null },
+            { "location_code": "5000016506", "location_type": null },
+            { "location_code": "5000003575", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Nhat Long_YMNorth-1.25T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 6.6117372166666675,
+          "total_cost": 876000,
+          "main_cost": 786000,
+          "additional_cost": 90000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000003229", "location_type": null },
+            { "location_code": "5000003580", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-7T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 25.8571275,
+          "total_cost": 9090456,
+          "main_cost": 8640456,
+          "additional_cost": 450000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "5000016240", "location_type": null },
+            { "location_code": "6000004406", "location_type": null },
+            { "location_code": "6000019777", "location_type": null },
+            { "location_code": "6000009467", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-7T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 22.1108375,
+          "total_cost": 1553376,
+          "main_cost": 1553376,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000003104", "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thanh Cong_YMNorth-7T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 27.437061999999997,
+          "total_cost": 6185612,
+          "main_cost": 6035612,
+          "additional_cost": 150000,
+          "elements": [
+            { "location_code": "9511", "location_type": null },
+            { "location_code": "6000021809", "location_type": null },
+            { "location_code": "6000016711", "location_type": null }
+          ]
+        }
+      ]
+    }
+  ]
+}
