@@ -3,7 +3,7 @@ import fs from "fs/promises";
 import ExcelJS from "exceljs";
 
 const wb = new ExcelJS.Workbook();
-const fileName = "VLong_8th_Demo_D.Phuong_ok.xlsx";
+const fileName = "YMSOUTH_8th_demo_DPhuong_ok.xlsx";
 
 wb.xlsx.readFile(fileName).then(() => {
   //select sheet  file in excel
@@ -17,6 +17,9 @@ wb.xlsx.readFile(fileName).then(() => {
   //select column trucking number (truck plate)
   const filter_add_truckingnumber = ws.getColumn(5).values;
   console.log(filter_add_truckingnumber);
+
+  const filter_cbm = ws.getColumn(16).values;
+
   // return
   const filter_Trucking_Number = filter_add_truckingnumber.map(
     (value, index) => {
@@ -46,6 +49,7 @@ wb.xlsx.readFile(fileName).then(() => {
   //format: { 'TRUCKING_NUMBER' : 'VEHICLE_TYPE',}
   const truckingNumberToVehicleType = {};
   //loop through every row and group trucking number, truck's delivery location code and remove duplicates
+  var totalCbm = 0;
   for (let i = 2; i < filter_Trucking_Number.length; i++) {
     let thisTruckingNumber = filter_Trucking_Number[i];
     //creating trucking number to vehicle type dictionary
@@ -58,11 +62,16 @@ wb.xlsx.readFile(fileName).then(() => {
     //grouping route
     if (!(thisTruckingNumber in truckingRoute)) {
       truckingRoute[thisTruckingNumber] = [filter_shipto_party_number[i]];
+      truckingRoute[thisTruckingNumber].total_cbm_load = filter_cbm[i];
     } else if (
       !truckingRoute[thisTruckingNumber].includes(filter_shipto_party_number[i])
     ) {
       truckingRoute[thisTruckingNumber].push(filter_shipto_party_number[i]);
+      truckingRoute[thisTruckingNumber].total_cbm_load += filter_cbm[i];
+    } else {
+      truckingRoute[thisTruckingNumber].total_cbm_load += filter_cbm[i];
     }
+
   }
   // console.log(truckingNumberToVehicleType);
   const updatedObject = {};
@@ -84,6 +93,7 @@ wb.xlsx.readFile(fileName).then(() => {
     let routeFormat = {
       // check value for customs
       vehicleType: truckingNumberToVehicleType[key],
+      total_cbm_load:  truckingRoute[key].total_cbm_load,
       elements: [...depot, ...truckingRoute[key]],
     };
     finalRoute.push(routeFormat);
@@ -96,7 +106,7 @@ wb.xlsx.readFile(fileName).then(() => {
     let routeFormat = {
       vehicle_code: null,
       vehicle_cbm: 0,
-      total_cbm_load: 0,
+      total_cbm_load: route.total_cbm_load,
       total_cost: 0,
       main_cost: 0,
       additional_cost: 0,
