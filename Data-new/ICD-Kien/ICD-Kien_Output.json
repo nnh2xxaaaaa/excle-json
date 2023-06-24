@@ -1,0 +1,386 @@
+{
+  "solutions": [
+    {
+      "routes": [
+        {
+          "vehicle_code": "Heo Vang_ICD-3.5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 10.132325,
+          "total_cost": 875000,
+          "main_cost": 875000,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000022092, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Loc Tien Phat_ICD-2T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 8.430272,
+          "total_cost": 649240.69,
+          "main_cost": 649240.69,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000017434, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Logitem_ICD-11T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 31.137428749999998,
+          "total_cost": 2438000,
+          "main_cost": 2438000,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000018796, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Logitem_ICD-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 14.685342749999998,
+          "total_cost": 1276000,
+          "main_cost": 1106000,
+          "additional_cost": 170000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 5000014624, "location_type": null },
+            { "location_code": 6000017434, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Logitem_ICD-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 14.21127525,
+          "total_cost": 1106000,
+          "main_cost": 1106000,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 5000014624, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Loc Tien Phat_ICD-7T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 20.5917185,
+          "total_cost": 2030021.5586,
+          "main_cost": 2030021.5586,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000014860, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Logitem_ICD-2T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 5.758752,
+          "total_cost": 1089000,
+          "main_cost": 729000,
+          "additional_cost": 360000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000019245, "location_type": null },
+            { "location_code": 5000009712, "location_type": null },
+            { "location_code": 5000009763, "location_type": null },
+            { "location_code": 6000013206, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Heo Vang_ICD-2T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 6.337964547375,
+          "total_cost": 597000,
+          "main_cost": 597000,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000005428, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thuan Thanh Tin_ICD-15T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 43.144209,
+          "total_cost": 3627917,
+          "main_cost": 3447917,
+          "additional_cost": 180000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 5000009704, "location_type": null },
+            { "location_code": 5000010093, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Logitem_ICD-3.5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 12.909018000000003,
+          "total_cost": 1443000,
+          "main_cost": 1203000,
+          "additional_cost": 240000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 5000005417, "location_type": null },
+            { "location_code": 5000003880, "location_type": null },
+            { "location_code": 6000015246, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Logitem_ICD-2T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 60.16407999999999,
+          "total_cost": 1138000,
+          "main_cost": 898000,
+          "additional_cost": 240000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000005439, "location_type": null },
+            { "location_code": 5000014614, "location_type": null },
+            { "location_code": 5000014621, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Logitem_ICD-11T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 26.739207000000004,
+          "total_cost": 2777000,
+          "main_cost": 2777000,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000019316, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Logitem_ICD-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 16.019501,
+          "total_cost": 1606000,
+          "main_cost": 1266000,
+          "additional_cost": 340000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 5000010214, "location_type": null },
+            { "location_code": 5000014622, "location_type": null },
+            { "location_code": 6000009462, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Heo Vang_ICD-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 15.246315,
+          "total_cost": 1235000,
+          "main_cost": 1085000,
+          "additional_cost": 150000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000011758, "location_type": null },
+            { "location_code": 6000013480, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Logitem_ICD-3.5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 12.289422250000001,
+          "total_cost": 1292000,
+          "main_cost": 1052000,
+          "additional_cost": 240000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000024438, "location_type": null },
+            { "location_code": 5000014613, "location_type": null },
+            { "location_code": 5000014612, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Heo Vang_ICD-3.5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 10.993895,
+          "total_cost": 1025000,
+          "main_cost": 875000,
+          "additional_cost": 150000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000011855, "location_type": null },
+            { "location_code": 5000004105, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thuan Thanh Tin_ICD-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 14.70672,
+          "total_cost": 1113277,
+          "main_cost": 1113277,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000008921, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Logitem_ICD-2T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 9.305111,
+          "total_cost": 910000,
+          "main_cost": 670000,
+          "additional_cost": 240000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000009605, "location_type": null },
+            { "location_code": 5000017227, "location_type": null },
+            { "location_code": 5000014615, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thuan Thanh Tin_ICD-11T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 32.055871,
+          "total_cost": 1686129,
+          "main_cost": 1686129,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000011361, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Loc Tien Phat_ICD-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 16.858423000000002,
+          "total_cost": 1052271.2348,
+          "main_cost": 872271.2348,
+          "additional_cost": 180000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000011435, "location_type": null },
+            { "location_code": 5000014654, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Logitem_ICD-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 15.137259550999996,
+          "total_cost": 977000,
+          "main_cost": 807000,
+          "additional_cost": 170000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 5000003879, "location_type": null },
+            { "location_code": 6000014588, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Loc Tien Phat_ICD-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 16.136652,
+          "total_cost": 1073795.0309000001,
+          "main_cost": 893795.0309,
+          "additional_cost": 180000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 5000014675, "location_type": null },
+            { "location_code": 6000014274, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Heo Vang_ICD-3.5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 12.477065543749998,
+          "total_cost": 1076000,
+          "main_cost": 776000,
+          "additional_cost": 300000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000021111, "location_type": null },
+            { "location_code": 6000008325, "location_type": null },
+            { "location_code": 6000008531, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Heo Vang_ICD-3.5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 13.20696,
+          "total_cost": 906000,
+          "main_cost": 606000,
+          "additional_cost": 300000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000014274, "location_type": null },
+            { "location_code": 5000005334, "location_type": null },
+            { "location_code": 6000024812, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Loc Tien Phat_ICD-11T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 37.43562625,
+          "total_cost": 1833917.7648,
+          "main_cost": 1653917.7648,
+          "additional_cost": 180000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000024162, "location_type": null },
+            { "location_code": 6000014274, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thuan Thanh Tin_ICD-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 14.614134499999999,
+          "total_cost": 1731576,
+          "main_cost": 1491576,
+          "additional_cost": 240000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000011012, "location_type": null },
+            { "location_code": 6000021830, "location_type": null },
+            { "location_code": 5000017311, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Logitem_ICD-7T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 19.640308750000003,
+          "total_cost": 2248000,
+          "main_cost": 2078000,
+          "additional_cost": 170000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000014588, "location_type": null },
+            { "location_code": 6000023713, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Thuan Thanh Tin_ICD-5T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 86.29430400000001,
+          "total_cost": 111327,
+          "main_cost": 6679662,
+          "additional_cost": 0,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000022092, "location_type": null }
+          ]
+        },
+        {
+          "vehicle_code": "Logitem_ICD-7T",
+          "vehicle_cbm": 0,
+          "total_cbm_load": 21.538838703999996,
+          "total_cost": 3265000,
+          "main_cost": 2925000,
+          "additional_cost": 340000,
+          "elements": [
+            { "location_code": "9512", "location_type": null },
+            { "location_code": 6000017217, "location_type": null },
+            { "location_code": 6000003410, "location_type": null },
+            { "location_code": 6000014402, "location_type": null }
+          ]
+        }
+      ]
+    }
+  ]
+}

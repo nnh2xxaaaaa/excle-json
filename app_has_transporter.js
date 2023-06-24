@@ -3,32 +3,35 @@ import fs from "fs/promises";
 import ExcelJS from "exceljs";
 
 const wb = new ExcelJS.Workbook();
-const fileName = "KH_Actual_test/Actual_test_206.xlsx";
+const fileName = "YMNorth_actual_0th_edit.xlsx";
 
 wb.xlsx.readFile(fileName).then(() => {
   //select sheet  file in excel
-  const ws = wb.getWorksheet(1);
+  const ws = wb.getWorksheet('YMN');
   //select column shipto party number (customer location code)
-  const filter_shipto_party_number = ws.getColumn(9).values;
+  const filter_shipto_party_number = ws.getColumn(6).values;
   //select column vehicle weight
-  const filter_truck_capacity_in_tons = ws.getColumn(7).values;
+  const filter_truck_capacity_in_tons = ws.getColumn(9).values;
   //select column transporter (type of vendor ex: NHAT LONG)
-  const filter_transporter = ws.getColumn(6).values;
+  const filter_transporter = ws.getColumn(10).values;
   //select column trucking number (truck plate)
-  const filter_add_truckingnumber = ws.getColumn(5).values;
-  console.log(filter_add_truckingnumber);
+  const filter_add_truckingnumber = ws.getColumn(7).values;
+  // console.log(filter_add_truckingnumber);
 
-  const filter_cbm = ws.getColumn(15).values;
+  const filter_cbm = ws.getColumn(18).values;
 
-  // return;
   const filter_Trucking_Number = filter_add_truckingnumber.map(
     (value, index) => {
-      return value.split(" ")[0];
+      return value.toString().toLocaleUpperCase().split(" ")[0].toLocaleLowerCase();
     }
   );
   console.log(filter_Trucking_Number);
+
+  // return;
+
+
   function convertString(str) {
-    const words = str.split(" ");
+    const words = str.toString().split(" ");
     // Convert each word to lowercase and capitalize the first letter
     const convertedWords = words.map(function (word) {
       return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
