@@ -20988,338 +20988,253 @@
       "locationCode": "9513",
       "lat": 16.0831233,
       "lng": 108.1424825,
-      "lTypes": [
-        "STATION",
-        "DEPOT"
-      ]
+      "lTypes": ["STATION", "DEPOT"]
     },
     {
       "locationCode": "6000016930",
       "lat": 14.088611,
       "lng": 108.7823721,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000011267",
       "lat": 15.0430055,
       "lng": 108.4721169,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "5000014697",
       "lat": 13.7555246,
       "lng": 109.2087173,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000019620",
       "lat": 16.3990488,
       "lng": 107.5903644,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "5000014602",
       "lat": 16.0519511,
       "lng": 108.2115723,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000019895",
       "lat": 13.7820189,
       "lng": 109.1448314,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000024102",
       "lat": 15.4859111,
       "lng": 108.3625618,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000014909",
       "lat": 16.1031409,
       "lng": 108.2453594,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000020382",
       "lat": 15.2148477,
       "lng": 108.7887632,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000008626",
       "lat": 16.0833431,
       "lng": 108.1287625,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000009638",
       "lat": 17.4792661,
       "lng": 106.6202807,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000022125",
       "lat": 17.758761,
       "lng": 106.425708,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000023288",
       "lat": 15.6733854,
       "lng": 108.2186342,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000018041",
       "lat": 14.7634789,
       "lng": 108.7333671,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000013536",
       "lat": 16.7974823,
       "lng": 107.1180214,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000019828",
       "lat": 14.7810685,
       "lng": 108.9561661,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000015314",
       "lat": 17.4655936,
       "lng": 106.5886021,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000016007",
       "lat": 16.4034364,
       "lng": 107.6392892,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000014158",
       "lat": 14.0008748,
       "lng": 109.0601808,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "5000011021",
       "lat": 17.7530355,
       "lng": 106.4235285,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "5000003709",
       "lat": 15.1215241,
       "lng": 108.804567,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000019559",
       "lat": 17.4693105,
       "lng": 106.6125358,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "5000004295",
       "lat": 16.0643157,
       "lng": 108.2164457,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000022781",
       "lat": 15.0342811,
       "lng": 108.8729732,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000014376",
       "lat": 14.4272321,
       "lng": 108.9986304,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000004263",
       "lat": 16.0546725,
       "lng": 108.1605962,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000017798",
       "lat": 15.4024625,
       "lng": 108.7007007,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000010972",
       "lat": 15.5391916,
       "lng": 108.4882667,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000011596",
       "lat": 13.9174816,
       "lng": 108.9234812,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000011246",
       "lat": 16.2714658,
       "lng": 107.8840377,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000016928",
       "lat": 16.1725519,
       "lng": 107.7192104,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000011195",
       "lat": 16.0083542,
       "lng": 108.184845,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000023063",
       "lat": 16.2333329,
       "lng": 108.083333,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000011380",
       "lat": 17.2238856,
       "lng": 106.8089885,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "5000004132",
       "lat": 17.7530355,
       "lng": 106.4235285,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "5000011132",
       "lat": 17.4828844,
       "lng": 106.5972572,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000011205",
       "lat": 16.6300112,
       "lng": 106.7057733,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000011615",
       "lat": 16.694041,
       "lng": 107.2503855,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "5000014603",
       "lat": 15.1134411,
       "lng": 108.8166995,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000015892",
       "lat": 13.7941689,
       "lng": 109.1879699,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     },
     {
       "locationCode": "6000010748",
       "lat": 16.571211,
       "lng": 107.363701,
-      "lTypes": [
-        "CUSTOMER"
-      ]
+      "lTypes": ["CUSTOMER"]
     }
   ],
   "matrixConfig": {

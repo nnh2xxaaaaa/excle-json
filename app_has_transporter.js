@@ -1,34 +1,45 @@
-import inputData from "./newInputData.json" assert { type: "json" };
+import inputData from "./Data-new/YMSouth/YMSouth22-5_Input.json" assert { type: "json" };
 import fs from "fs/promises";
 import ExcelJS from "exceljs";
+import path from "path";
 
+const folderName = "Data-new";
+const folederChildName = "YMSouth";
+const fileName_read = "YMSouth_edit.xlsx";
+const file_Outputjson = `./${folderName}/${folederChildName}/${folederChildName}_output.json`;
+const fileName = `./${folderName}/${folederChildName}/${fileName_read}`;
 const wb = new ExcelJS.Workbook();
-const fileName = "YMNorth_actual_0th_edit.xlsx";
-
+// return 1;
 wb.xlsx.readFile(fileName).then(() => {
   //select sheet  file in excel
-  const ws = wb.getWorksheet('YMN');
+  const ws = wb.getWorksheet("Manual");
   //select column shipto party number (customer location code)
   const filter_shipto_party_number = ws.getColumn(6).values;
-  //select column vehicle weight
-  const filter_truck_capacity_in_tons = ws.getColumn(9).values;
-  //select column transporter (type of vendor ex: NHAT LONG)
-  const filter_transporter = ws.getColumn(10).values;
   //select column trucking number (truck plate)
   const filter_add_truckingnumber = ws.getColumn(7).values;
-  // console.log(filter_add_truckingnumber);
-
-  const filter_cbm = ws.getColumn(18).values;
-
+  //edit trucking number
   const filter_Trucking_Number = filter_add_truckingnumber.map(
     (value, index) => {
-      return value.toString().toLocaleUpperCase().split(" ")[0].toLocaleLowerCase();
+      return value
+        .toString()
+        .toLocaleUpperCase()
+        .split(" ")[0]
+        .toLocaleLowerCase()
+        .toLocaleUpperCase();
     }
   );
-  console.log(filter_Trucking_Number);
+  //select column transporter (type of vendor ex: NHAT LONG)
+  const filter_transporter = ws.getColumn(8).values;
+  //filter cbm
+  const filter_cbm = ws.getColumn(9).values;
+  //select column vehicle weight
+  const filter_truck_capacity_in_tons = ws.getColumn(10).values;
+
+  // console.log(filter_add_truckingnumber);
+
+  // console.log(filter_Trucking_Number);
 
   // return;
-
 
   function convertString(str) {
     const words = str.toString().split(" ");
@@ -42,7 +53,7 @@ wb.xlsx.readFile(fileName).then(() => {
       convertedString = convertedWords.join(" ") + " YMNorth-";
     } else {
       // Join the converted words back into a single string
-      convertedString = `${convertedWords.join(" ")}_YMNorth-`;
+      convertedString = `${convertedWords.join(" ")}_YMSouth-`;
     }
     return convertedString;
   }
@@ -75,7 +86,7 @@ wb.xlsx.readFile(fileName).then(() => {
       truckingRoute[thisTruckingNumber].total_cbm_load += filter_cbm[i];
     }
   }
-  console.log(truckingNumberToVehicleType);
+  // console.log(truckingNumberToVehicleType);
   const updatedObject = {};
   const convertedObject = {};
 
@@ -94,14 +105,14 @@ wb.xlsx.readFile(fileName).then(() => {
     let depot = [inputData["depots"][0]["depotCode"]];
     let routeFormat = {
       // check value for customs
-      vehicleType: convertedObject[key],
+      vehicleType: truckingNumberToVehicleType[key],
       total_cbm_load: truckingRoute[key].total_cbm_load,
       elements: [...depot, ...truckingRoute[key]],
     };
     finalRoute.push(routeFormat);
   }
 
-  // console.log(finalRoute);
+  console.log(finalRoute);
 
   let outputDict = { solutions: [{ routes: [] }] };
   finalRoute.forEach((route) => {
@@ -177,12 +188,12 @@ wb.xlsx.readFile(fileName).then(() => {
           "matrix"
         ]) {
           if (a["typeOfVehicle"] === thisVehicle) {
-            if (a["value"] <= 0) {
+            if (a["value"] < 0) {
               //standard additional fee == 150.000
               additionalFee = numberOfAdditionalFee * 150000;
               // throw "vehicle does not go to additional locations";
             } else {
-              additionalFee = numberOfAdditionalFee * a["value"];
+              additionalFee = numberOfAdditionalFee * a["value"] * 1;
             }
             break;
           }
@@ -201,9 +212,9 @@ wb.xlsx.readFile(fileName).then(() => {
     });
   });
 
-  console.log(totalTotalCost);
+  console.log("totalTotaCost:", totalTotalCost);
   const jsonData = JSON.stringify(outputDict);
-  fs.writeFile("newOutputdata.json", jsonData, "utf8")
+  fs.writeFile(file_Outputjson, jsonData, "utf8")
     .then(() => {
       console.log("JSON file has been created.");
     })

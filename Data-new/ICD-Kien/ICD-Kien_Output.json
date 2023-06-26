@@ -5,7 +5,7 @@
         {
           "vehicle_code": "Heo Vang_ICD-3.5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 10.132325,
+          "total_cbm_load": 10.132925,
           "total_cost": 875000,
           "main_cost": 875000,
           "additional_cost": 0,
@@ -17,7 +17,7 @@
         {
           "vehicle_code": "Loc Tien Phat_ICD-2T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 8.430272,
+          "total_cbm_load": 8.430672,
           "total_cost": 649240.69,
           "main_cost": 649240.69,
           "additional_cost": 0,
@@ -29,7 +29,7 @@
         {
           "vehicle_code": "Logitem_ICD-11T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 31.137428749999998,
+          "total_cbm_load": 31.13822875,
           "total_cost": 2438000,
           "main_cost": 2438000,
           "additional_cost": 0,
@@ -41,7 +41,7 @@
         {
           "vehicle_code": "Logitem_ICD-5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 14.685342749999998,
+          "total_cbm_load": 14.68634275,
           "total_cost": 1276000,
           "main_cost": 1106000,
           "additional_cost": 170000,
@@ -54,7 +54,7 @@
         {
           "vehicle_code": "Logitem_ICD-5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 14.21127525,
+          "total_cbm_load": 14.211675249999999,
           "total_cost": 1106000,
           "main_cost": 1106000,
           "additional_cost": 0,
@@ -66,7 +66,7 @@
         {
           "vehicle_code": "Loc Tien Phat_ICD-7T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 20.5917185,
+          "total_cbm_load": 20.592718499999997,
           "total_cost": 2030021.5586,
           "main_cost": 2030021.5586,
           "additional_cost": 0,
@@ -78,7 +78,7 @@
         {
           "vehicle_code": "Logitem_ICD-2T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 5.758752,
+          "total_cbm_load": 5.759652,
           "total_cost": 1089000,
           "main_cost": 729000,
           "additional_cost": 360000,
@@ -93,7 +93,7 @@
         {
           "vehicle_code": "Heo Vang_ICD-2T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 6.337964547375,
+          "total_cbm_load": 6.340664547375001,
           "total_cost": 597000,
           "main_cost": 597000,
           "additional_cost": 0,
@@ -105,7 +105,7 @@
         {
           "vehicle_code": "Thuan Thanh Tin_ICD-15T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 43.144209,
+          "total_cbm_load": 43.14530900000001,
           "total_cost": 3627917,
           "main_cost": 3447917,
           "additional_cost": 180000,
@@ -118,7 +118,7 @@
         {
           "vehicle_code": "Logitem_ICD-3.5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 12.909018000000003,
+          "total_cbm_load": 12.910018000000003,
           "total_cost": 1443000,
           "main_cost": 1203000,
           "additional_cost": 240000,
@@ -132,7 +132,7 @@
         {
           "vehicle_code": "Logitem_ICD-2T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 60.16407999999999,
+          "total_cbm_load": 60.16528,
           "total_cost": 1138000,
           "main_cost": 898000,
           "additional_cost": 240000,
@@ -146,7 +146,7 @@
         {
           "vehicle_code": "Logitem_ICD-11T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 26.739207000000004,
+          "total_cbm_load": 26.741307000000003,
           "total_cost": 2777000,
           "main_cost": 2777000,
           "additional_cost": 0,
@@ -158,7 +158,7 @@
         {
           "vehicle_code": "Logitem_ICD-5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 16.019501,
+          "total_cbm_load": 16.021701,
           "total_cost": 1606000,
           "main_cost": 1266000,
           "additional_cost": 340000,
@@ -172,7 +172,7 @@
         {
           "vehicle_code": "Heo Vang_ICD-5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 15.246315,
+          "total_cbm_load": 15.246914999999998,
           "total_cost": 1235000,
           "main_cost": 1085000,
           "additional_cost": 150000,
@@ -185,7 +185,7 @@
         {
           "vehicle_code": "Logitem_ICD-3.5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 12.289422250000001,
+          "total_cbm_load": 12.29112225,
           "total_cost": 1292000,
           "main_cost": 1052000,
           "additional_cost": 240000,
@@ -199,7 +199,7 @@
         {
           "vehicle_code": "Heo Vang_ICD-3.5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 10.993895,
+          "total_cbm_load": 10.994494999999999,
           "total_cost": 1025000,
           "main_cost": 875000,
           "additional_cost": 150000,
@@ -212,7 +212,7 @@
         {
           "vehicle_code": "Thuan Thanh Tin_ICD-5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 14.70672,
+          "total_cbm_load": 14.70702,
           "total_cost": 1113277,
           "main_cost": 1113277,
           "additional_cost": 0,
@@ -224,7 +224,7 @@
         {
           "vehicle_code": "Logitem_ICD-2T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 9.305111,
+          "total_cbm_load": 9.306511,
           "total_cost": 910000,
           "main_cost": 670000,
           "additional_cost": 240000,
@@ -238,7 +238,7 @@
         {
           "vehicle_code": "Thuan Thanh Tin_ICD-11T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 32.055871,
+          "total_cbm_load": 32.05667100000001,
           "total_cost": 1686129,
           "main_cost": 1686129,
           "additional_cost": 0,
@@ -250,7 +250,7 @@
         {
           "vehicle_code": "Loc Tien Phat_ICD-5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 16.858423000000002,
+          "total_cbm_load": 16.859223,
           "total_cost": 1052271.2348,
           "main_cost": 872271.2348,
           "additional_cost": 180000,
@@ -263,7 +263,7 @@
         {
           "vehicle_code": "Logitem_ICD-5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 15.137259550999996,
+          "total_cbm_load": 15.139359551,
           "total_cost": 977000,
           "main_cost": 807000,
           "additional_cost": 170000,
@@ -276,7 +276,7 @@
         {
           "vehicle_code": "Loc Tien Phat_ICD-5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 16.136652,
+          "total_cbm_load": 16.138351999999998,
           "total_cost": 1073795.0309000001,
           "main_cost": 893795.0309,
           "additional_cost": 180000,
@@ -289,7 +289,7 @@
         {
           "vehicle_code": "Heo Vang_ICD-3.5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 12.477065543749998,
+          "total_cbm_load": 12.478765543749997,
           "total_cost": 1076000,
           "main_cost": 776000,
           "additional_cost": 300000,
@@ -303,7 +303,7 @@
         {
           "vehicle_code": "Heo Vang_ICD-3.5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 13.20696,
+          "total_cbm_load": 13.207960000000002,
           "total_cost": 906000,
           "main_cost": 606000,
           "additional_cost": 300000,
@@ -317,7 +317,7 @@
         {
           "vehicle_code": "Loc Tien Phat_ICD-11T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 37.43562625,
+          "total_cbm_load": 37.437426250000016,
           "total_cost": 1833917.7648,
           "main_cost": 1653917.7648,
           "additional_cost": 180000,
@@ -330,7 +330,7 @@
         {
           "vehicle_code": "Thuan Thanh Tin_ICD-5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 14.614134499999999,
+          "total_cbm_load": 14.6155345,
           "total_cost": 1731576,
           "main_cost": 1491576,
           "additional_cost": 240000,
@@ -344,7 +344,7 @@
         {
           "vehicle_code": "Logitem_ICD-7T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 19.640308750000003,
+          "total_cbm_load": 19.64150875,
           "total_cost": 2248000,
           "main_cost": 2078000,
           "additional_cost": 170000,
@@ -357,9 +357,9 @@
         {
           "vehicle_code": "Thuan Thanh Tin_ICD-5T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 86.29430400000001,
-          "total_cost": 111327,
-          "main_cost": 6679662,
+          "total_cbm_load": 86.29480400000001,
+          "total_cost": 1113277,
+          "main_cost": 1113277,
           "additional_cost": 0,
           "elements": [
             { "location_code": "9512", "location_type": null },
@@ -369,7 +369,7 @@
         {
           "vehicle_code": "Logitem_ICD-7T",
           "vehicle_cbm": 0,
-          "total_cbm_load": 21.538838703999996,
+          "total_cbm_load": 21.540038703999997,
           "total_cost": 3265000,
           "main_cost": 2925000,
           "additional_cost": 340000,
