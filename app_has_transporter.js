@@ -1,21 +1,22 @@
-import inputData from "./Data-new/YMSouth/YMSouth22-5_Input.json" assert { type: "json" };
+import inputData from "./Data-new/VLong/VinhLong22_5_Input.json" assert { type: "json" }; // select file inputData.json in folderChild
 import fs from "fs/promises";
 import ExcelJS from "exceljs";
-import path from "path";
-
-const folderName = "Data-new";
-const folederChildName = "YMSouth";
-const fileName_read = "YMSouth_edit.xlsx";
-const file_Outputjson = `./${folderName}/${folederChildName}/${folederChildName}_output.json`;
+//select manual
+const folderName = "Data-new"; // select folder has folder has data ( data: file excel and file inputdata.json)
+const folederChildName = "VLong"; // select folder child  in folderName
+const fileName_read = "VinhLong.xlsx"; // select excel
+const nameDeport = "BM";
+// auto
+const file_Outputjson = `./${folderName}/${folederChildName}/${folederChildName}_output.json`; //default createfile Output.json in folder Child choose
 const fileName = `./${folderName}/${folederChildName}/${fileName_read}`;
 const wb = new ExcelJS.Workbook();
 // return 1;
 wb.xlsx.readFile(fileName).then(() => {
-  //select sheet  file in excel
+  //select sheet  file in excel : default name sheet: Manual
   const ws = wb.getWorksheet("Manual");
-  //select column shipto party number (customer location code)
+  //Default Index column Shipto party number: Column 6 ( F ) .
   const filter_shipto_party_number = ws.getColumn(6).values;
-  //select column trucking number (truck plate)
+  //Default Index column Trucking Number : Column 7 ( G ) .
   const filter_add_truckingnumber = ws.getColumn(7).values;
   //edit trucking number
   const filter_Trucking_Number = filter_add_truckingnumber.map(
@@ -28,11 +29,12 @@ wb.xlsx.readFile(fileName).then(() => {
         .toLocaleUpperCase();
     }
   );
-  //select column transporter (type of vendor ex: NHAT LONG)
+  //Default Index column Transporter Name: Column 8 ( H ).
   const filter_transporter = ws.getColumn(8).values;
   //filter cbm
+  //Default Index column Sum of total Cbm ( Volume ) : Column 9 ( I ).
   const filter_cbm = ws.getColumn(9).values;
-  //select column vehicle weight
+  //Default Index column Trucking Capacity  in Tons ( weight) : Column 10 ( J ).
   const filter_truck_capacity_in_tons = ws.getColumn(10).values;
 
   // console.log(filter_add_truckingnumber);
@@ -43,17 +45,63 @@ wb.xlsx.readFile(fileName).then(() => {
 
   function convertString(str) {
     const words = str.toString().split(" ");
-    // Convert each word to lowercase and capitalize the first letter
-    const convertedWords = words.map(function (word) {
-      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-    });
-    // Join the converted words back into a single string
     let convertedString;
-    if (convertedWords.join(" ") === "Thai Ha") {
-      convertedString = convertedWords.join(" ") + " YMNorth-";
-    } else {
+    if (nameDeport === "YMSouth") {
+      // Convert each word to lowercase and capitalize the first letter
+      const convertedWords = words.map(function (word) {
+        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+      });
       // Join the converted words back into a single string
-      convertedString = `${convertedWords.join(" ")}_YMSouth-`;
+      if (convertedWords.join(" ") === "Thai Ha") {
+        convertedString = convertedWords.join(" ") + " YMNorth-";
+      } else {
+        // Join the converted words back into a single string
+        convertedString = `${convertedWords.join(" ")}_YMSouth-`;
+      }
+    } else if (nameDeport === "YMNorth") {
+      const convertedWords = words.map(function (word) {
+        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+      });
+      // Join the converted words back into a single string
+      if (convertedWords.join(" ") === "Thai Ha") {
+        convertedString = convertedWords.join(" ") + " YMNorth-";
+      } else {
+        // Join the converted words back into a single string
+        convertedString = `${convertedWords.join(" ")}_YMNorth-`;
+      }
+    } else if (nameDeport === "HK") {
+      const convertedWords = words.map(function (word) {
+        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+      });
+      // Join the converted words back into a single string
+      if (convertedWords.join(" ") === "Thai Ha") {
+        convertedString = convertedWords.join(" ") + " YMNorth-";
+      } else {
+        // Join the converted words back into a single string
+        convertedString = `${convertedWords.join(" ")}_HK-`;
+      }
+    } else if (nameDeport === "ICD") {
+      const convertedWords = words.map(function (word) {
+        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+      });
+      // Join the converted words back into a single string
+      if (convertedWords.join(" ") === "Thai Ha") {
+        convertedString = convertedWords.join(" ") + " YMNorth-";
+      } else {
+        // Join the converted words back into a single string
+        convertedString = `${convertedWords.join(" ")}_ICD-`;
+      }
+    } else if (nameDeport === "BM") {
+      const convertedWords = words.map(function (word) {
+        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+      });
+      // Join the converted words back into a single string
+      if (convertedWords.join(" ") === "Thai Ha") {
+        convertedString = convertedWords.join(" ") + " YMNorth-";
+      } else {
+        // Join the converted words back into a single string
+        convertedString = `${convertedWords.join(" ")}_BM-`;
+      }
     }
     return convertedString;
   }
