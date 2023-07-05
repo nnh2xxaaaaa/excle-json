@@ -162,7 +162,9 @@ wb.xlsx.readFile(fileName).then(() => {
 
   console.log(finalRoute);
 
-  let outputDict = { solutions: [{ routes: [] }] };
+  let outputDict = {
+    solutions: [{ routes: [], unscheduled_requests: [] }],
+  };
   finalRoute.forEach((route) => {
     let routeFormat = {
       vehicle_code: null,
