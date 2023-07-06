@@ -1,23 +1,29 @@
-import inputData from "./Data-new/VLong/VinhLong22_5_Input.json" assert { type: "json" }; // select file inputData.json in folderChild
+// import inputData from "./Data-new/YMNorth/YMNorth22-5_Input.json" assert { type: "json" }; // select file inputData.json in folderChild
 import fs from "fs/promises";
 import ExcelJS from "exceljs";
 //select manual
-const folderName = "Data-new"; // select folder has folder has data ( data: file excel and file inputdata.json)
-const folederChildName = "VLong"; // select folder child  in folderName
-const fileName_read = "VinhLong.xlsx"; // select excel
-const nameDeport = "BM";
+const folderName = "Data-new"; // select folder has folder has data ( data  in folder : file excel.xlsx and file inputdata.json)
+const folederChildName = "ICD-Trang"; // select folder child  in folderName
+const fileName_read = "excel.xlsx"; // select excel
+const nameDeport = "ICD"; // set name deport
 // auto
 const file_Outputjson = `./${folderName}/${folederChildName}/${folederChildName}_output.json`; //default createfile Output.json in folder Child choose
 const fileName = `./${folderName}/${folederChildName}/${fileName_read}`;
 const wb = new ExcelJS.Workbook();
+
+// const inputData = require(`./${folderName}/${folederChildName}/input.json`)
+let inputData = await import(`./${folderName}/${folederChildName}/input.json`, {
+  assert: { type: "json" },
+});
+inputData = inputData.default
 // return 1;
 wb.xlsx.readFile(fileName).then(() => {
   //select sheet  file in excel : default name sheet: Manual
   const ws = wb.getWorksheet("Manual");
   //Default Index column Shipto party number: Column 6 ( F ) .
-  const filter_shipto_party_number = ws.getColumn(6).values;
+  const filter_shipto_party_number = ws.getColumn(2).values;
   //Default Index column Trucking Number : Column 7 ( G ) .
-  const filter_add_truckingnumber = ws.getColumn(7).values;
+  const filter_add_truckingnumber = ws.getColumn(1).values;
   //edit trucking number
   const filter_Trucking_Number = filter_add_truckingnumber.map(
     (value, index) => {
@@ -33,10 +39,9 @@ wb.xlsx.readFile(fileName).then(() => {
   const filter_transporter = ws.getColumn(8).values;
   //filter cbm
   //Default Index column Sum of total Cbm ( Volume ) : Column 9 ( I ).
-  const filter_cbm = ws.getColumn(9).values;
+  const filter_cbm = ws.getColumn(3).values;
   //Default Index column Trucking Capacity  in Tons ( weight) : Column 10 ( J ).
-  const filter_truck_capacity_in_tons = ws.getColumn(10).values;
-
+  const filter_truck_capacity_in_tons = ws.getColumn(7).values;
   // console.log(filter_add_truckingnumber);
 
   // console.log(filter_Trucking_Number);
