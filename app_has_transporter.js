@@ -3,10 +3,10 @@ import fs from "fs/promises";
 import ExcelJS from "exceljs";
 //select manual
 const folderName = "Data-new"; // select folder has folder has data ( data  in folder : file excel.xlsx and file inputdata.json)
-const folederChildName = "Da-Nang"; // select folder child  in folderName
-const fileName_read = "Data_test.xlsx"; // select excel
-const nameDeport = "HK"; // set name deport
-const pathInputData = "DN_Input.json"; // set path input data
+const folederChildName = "ICD-Trang-Demo-07"; // select folder child  in folderName
+const fileName_read = "Demo11-ICD-Trang.xlsx"; // select excel
+const nameDeport = "ICD"; // set name deport
+const pathInputData = "Demo-ICD-Trang-input.json"; // set path input data
 // auto
 const file_Outputjson = `./${folderName}/${folederChildName}/${folederChildName}_output.json`; //default createfile Output.json in folder Child choose
 //read file excel in folder-child
@@ -41,12 +41,12 @@ wb.xlsx.readFile(fileName).then(() => {
     }
   );
   //Default Index column Transporter Name: Column 8 ( H ).
-  const filter_transporter = ws.getColumn(8).values;
+  const filter_transporter = ws.getColumn(9).values;
   //filter cbm
   //Default Index column Sum of total Cbm ( Volume ) : Column 9 ( I ).
-  const filter_cbm = ws.getColumn(9).values;
+  const filter_cbm = ws.getColumn(17).values;
   //Default Index column Trucking Capacity  in Tons ( weight) : Column 10 ( J ).
-  const filter_truck_capacity_in_tons = ws.getColumn(10).values;
+  const filter_truck_capacity_in_tons = ws.getColumn(8).values;
   // console.log(filter_add_truckingnumber);
 
   // console.log(filter_Trucking_Number);
